@@ -2,24 +2,23 @@ body {
 	color: #1f1f1f;
 	font: 14px arial, sans-serif;
 	background: #f5f3f3;
-	margin: 0px;
+	margin: 0 auto;
 	height: 1024px;
 	width: 1024px;
 	border: 1px solid grey;
 }
-h2 {
+h1 {
 	text-align: center;
 }
-img {
+.foto {
 	height: 200px; 
 	width: 200px;
 	border: 1px solid grey;
-}
-.img_center{
 	text-align: center;
 }
 .wrapper{
 	width: 500px;
+	height: 690px;
 	margin: 0px auto;
 }
 a {

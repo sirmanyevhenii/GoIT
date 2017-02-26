@@ -1,3 +1,22 @@
+.wrapper{
+	width: 500px;
+	height: 690px;
+	margin: 0px auto;
+}
+.foto {
+	height: 200px; 
+	width: 200px;
+	border: 1px solid grey;
+	text-align: center;
+}
+.heade,
+.reason,
+.contact {
+	border-bottom: 1px solid grey;
+}
+.margin {
+	margin-left: 36px;
+}
 body {
 	color: #1f1f1f;
 	font: 14px arial, sans-serif;
@@ -10,25 +29,6 @@ body {
 h1 {
 	text-align: center;
 }
-.foto {
-	height: 200px; 
-	width: 200px;
-	border: 1px solid grey;
-	text-align: center;
-}
-.wrapper{
-	width: 500px;
-	height: 690px;
-	margin: 0px auto;
-}
 a {
 	color: #0056d3;
-}
-.heade,
-.reason,
-.contact {
-	border-bottom: 1px solid grey;
-}
-.margin {
-	margin-left: 36px;
 }

@@ -1,0 +1,33 @@
+body {
+	color: #1f1f1f;
+	font: 14px arial, sans-serif;
+	background: #f5f3f3;
+	margin: 0px;
+	height: 1024px;
+	width: 1024px;
+	border: 1px solid grey;
+}
+h2 {
+	text-align: center;
+}
+img {
+	height: 200px; 
+	width: 200px;
+	border: 1px solid grey;
+}
+.img_center{
+	text-align: center;
+}
+.wrapper{
+	width: 500px;
+	margin: 0px auto;
+}
+a {
+	color: #0056d3;
+}
+.heade,
+.reason,
+.contact {
+	border-bottom: 1px solid grey;
+}
+

@@ -12,13 +12,17 @@ h1 {
 }
 a {
 	color: #0056d3;
+	font-style: italic;
 }
 .wrapper {
 	width: 500px;
 	height: 690px;
 	margin: 0px auto;
 }
-.foto {
+.div-foto {
+	text-align: center;
+}
+.img-foto {
 	height: 200px; 
 	width: 200px;
 	border: 1px solid grey;

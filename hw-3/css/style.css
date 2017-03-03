@@ -9,21 +9,35 @@
 	padding: 50px 50px 60px 50px;
 	width: 1066px;
 	height: 950px;
+	background: 
 }
 
 /* header */
+.menu {
+	height: 40px;
+}
 .menu li {
 	display: inline-block;
+	margin-left: 25px;
+	height: 40px;
+	line-height: 40px;
 }
 .img-logo {
 
 }
 /* conteiner */
+.conteiner{
+	display: inline-block;
+}
+.sidebar{
+	background-image: url(img/panel.png);
+	width: 965px;
+}
 .sidebar li {
-		border: 1px solid grey;
-		width: 240px;
-		text-align: left;
-		padding: 15;
+	text-align: left;
+	border: 1px solid #c8c8c8;
+	width: 240px;
+	padding: 15;
 }
 .img-content {
 	

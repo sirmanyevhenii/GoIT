@@ -1,5 +1,35 @@
 .wrapper {
+	margin: 0 auto;
 	width: 1366px;
 	height: 950px;
 	background: #f9f9f9;
+}
+.box {
+	margin: 0 auto;
+	padding: 50px 50px 60px 50px;
+	width: 1066px;
+	height: 950px;
+}
+
+/* header */
+.menu li {
+	display: inline-block;
+}
+.img-logo {
+
+}
+/* conteiner */
+.sidebar li {
+		border: 1px solid grey;
+		width: 240px;
+		text-align: left;
+		padding: 15;
+}
+.img-content {
+	
+}
+/* footer */
+.footer li,
+span {
+	display: inline-block;
 }

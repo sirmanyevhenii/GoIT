@@ -2,6 +2,7 @@ body {
 background-color: #f9f9f9;
 font: 14px Arial, sans-serif;
 }
+
 .wrapper {
 	margin: 0 auto;
 	padding: 50px 50px 60px 50px;
@@ -9,71 +10,110 @@ font: 14px Arial, sans-serif;
 	height: 950px;
 	background: #fff;
 }
+
 a {
-	text-decoration: none;
 	height: 40px;
 }
+
 /* ----------header---------- */
 .logo {
 	padding: 0;
 	border: none;
 }
+
 .menu {
-	height: 40px;
 	background-image: url(../img/panel.png);
 	font: 15px Arial, sans-serif;
 	margin: 40px 0px;
+	text-shadow: 1px 1px 2px black;
 }
+
 .menu li {
 	display: inline-block;
-	margin-left: 25px;
-	margin-right: 25px;
-	height: 40px;
-	line-height: 40px;
+	font-size: 15px;
 }
+
+.menu li:hover {
+	background-image: url(../img/link.png);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
 .menu a {
 	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0px 25px;
 }
+
 /* ----------conteiner---------- */
-.content {
-	width: 678px;
-	text-align: center;
-}
+
 .sidebar {
-	width: 965px;
-	width: 240px;
 	float: left;
+	color: #656363;
 }
+
 .sidebar li {
-	text-align: left;
 	border: 1px solid #c8c8c8;
 	padding-left: 24px;
 	height: 40px;
 	line-height: 40px;
+	width: 240px;
 }
+.sidebar li:hover {
+	background-image: url(../img/link2.png);
+}
+
 .sidebar a {
-color: #656363;
+	display: block;
+	color: #656363;
+	text-decoration: none;
 }
-.imgcontent{
-	margin-left: 50px;
+
+.sidebar a:hover {
+	padding-left: 16px;
+	color: #2c2c2c;
 }
-img {
-	padding: 86px;
+
+.imgcontent {
+	float: right;
 	border: 1px solid #c8c8c8;
+	width: 650px;
+	height: 400px;
+	margin-bottom: 40px;
 }
+
 p {
-	margin-left: 150px;
+    width: 615px;
+    margin-left: 340px;
 	text-align: left;
+	line-height: 1.5;
 }
+
 /* ---------footer---------- */
+
 .footer {
 	background-color: #e1e1e1;
-	margin: 40px 0px;
+	margin: 70px 0px;
 }
+
 .footer li {
 	display: inline-block;
-	height: 40px;
 	line-height: 40px;
 	margin-left: 25px;
 	margin-right: 75px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+.footer li:last-child {
+	margin-right: 150px; 
+	margin-left: 15px;
+}
+
+.footer a:hover {
+	text-decoration: underline; 
 }

@@ -17,9 +17,11 @@ a {
 } 
 
 	/* ----------header---------- */ 
+header {
+	background-image: url(../img/panel.png); 
+}
 
 .menu { 
-	background-image: url(../img/panel.png); 
 	font: 15px Arial, sans-serif; 
 	margin: 40px 0px; 
 	text-shadow: 1px 1px 2px black; 
@@ -39,6 +41,7 @@ border-right: 1px solid #838383;
 } 
 
 .menu a { 
+	display: block;
 	color: #fff; 
 	text-decoration: none; 
 	line-height: 40px; 

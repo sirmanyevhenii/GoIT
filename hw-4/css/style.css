@@ -1,0 +1,147 @@
+body {
+	background-image: url(../img/background.png);
+	font-size: 12px;
+	font-family: Tahoma, sans-serif;
+}
+
+.wrapper {
+	position: relative;
+	width: 1000px; height: 990px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-bottom: 3px solid #031d28;
+}
+/* =============== google_head =============== */
+
+.google_head {
+	margin: 0 auto;
+}
+
+/* =============== header =============== */
+
+header {
+	position: relative;
+	width: 1000; height: 175px;
+	color: #128aa7;
+}
+
+.logo {                  /* зробити напис "путешествия по Азии" */
+	position: absolute;
+	top: 10px; left: 30px;
+	display: block;
+	width: 283px;
+}
+
+.contacts {
+	position: absolute;
+	top: 10px; right: 35px;
+}
+
+.contacts h3 {
+  padding-bottom: 5px;
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.contacts p {
+  line-height: 1.5em;
+}
+
+.top_menu {
+	position: absolute;
+	top: 110px; right: 30px;
+	font-size: 10px;
+}
+
+.top_menu ul li {
+	display: inline-block;
+}
+
+.top_menu ul li a {
+	display: block;
+	text-align: center;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 55px;
+	padding-top: 45px;
+	color: #128aa7;
+}
+
+.india {
+	background-image: url(../img/i_flag.png);
+}
+
+.nepal {
+  background-image: url("../img/n_flag.png");
+}
+
+.tibet {
+  background-image: url("../img/t_flag.png");
+}
+
+.butan {
+  background-image: url("../img/b_flag.png");
+}
+
+.shri-lanka {
+  background-image: url("../img/s_flag.png");
+}
+
+.maldives {
+  background-image: url("../img/m_flag.png");
+}
+
+/* =============== foto =============== */
+
+.photo {                       /* чому зміщене фото */
+	margin: 0;        /* добавити рамки */
+	padding: 0;
+	width: 1000px; height: 240px;
+}
+
+/* =============== menu =============== */
+
+.menu {
+	display: block;
+		background-image: url(../img/panel.png);
+}
+
+.menu ul {
+	padding-top: 7px;
+}
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+	height: 28px;
+	padding-left: 10px;
+	padding-right: 45px;
+}
+
+.menu > li > ul {
+	position: absolute;
+	top: 29px;
+	display: none;
+}
+
+.menu > li:hover > ul {  /* потрібно  змістити випадне меню */
+	display: block;        /* по лівому паддинг а не ссилці*/
+	padding-left: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #303030;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 14px;
+}
+
+/* =============== conteiner =============== */
+
+.conteiner {
+	position: relative;
+	width: 1000; height: 575px;
+}

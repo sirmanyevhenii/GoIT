@@ -93,10 +93,10 @@ header {
 
 /* =============== foto =============== */
 
-.photo {                       /* чому зміщене фото */
-	margin: 0;        /* добавити рамки */
+.photo {
+	margin: 0;
 	padding: 0;
-	width: 1000px; height: 240px;
+	width: 1000px; height: 237px;
 }
 
 /* =============== menu =============== */
@@ -110,12 +110,19 @@ header {
 	padding-top: 7px;
 }
 
-.menu > li {
+.menu li {
 	position: relative;
 	display: inline-block;
 	height: 28px;
-	padding-left: 10px;
-	padding-right: 45px;
+	padding-left: 20px;
+}
+
+.menu a {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 7px 25px 7px 25px;
 }
 
 .menu > li > ul {
@@ -124,24 +131,39 @@ header {
 	display: none;
 }
 
-.menu > li:hover > ul {  /* потрібно  змістити випадне меню */
-	display: block;        /* по лівому паддинг а не ссилці*/
+.menu > li:hover > ul {
+	display: block;
 	padding-left: 10px;
 	padding-right: 45px;
 	padding-bottom: 10px;
 	color: #fff;
 	font-size: 14px;
 	background-color: #303030;
-}
-
-.menu a {
-	color: #fff;
-	font-size: 14px;
+	line-height: 1.5em;
 }
 
 /* =============== conteiner =============== */
 
 .conteiner {
-	position: relative;
-	width: 1000; height: 575px;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px; height: 550px;
+  font-size: 14px;
+  color: #424c43;
+}
+
+.inform,
+.news {
+	border: 1px solid gray;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 25px;
+	background-color: #edeef0;
+	line-height: 1.75em;
+}
+
+.inform h1,
+.news h1 {
+	text-align: center;
+  font-weight: 600;
 }

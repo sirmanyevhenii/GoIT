@@ -1,0 +1,11 @@
+﻿Ссылки почитать про флоаты:
+- http://www.css-tricks.ru/articles/css/all-about-floats		+
+- https://learn.javascript.ru/float					-
+
+1) http://joxi.ru/YmE3JJYH5GwLA6                                        +
+
+2) http://joxi.ru/DmBZyy4t3qJbmP, это ииза не очищеного header          +
+
+3) http://joxi.ru/KAxJxxXCxV1wm8 					+
+
+4) http://joxi.ru/ZrJkJJ4fKQnGmj

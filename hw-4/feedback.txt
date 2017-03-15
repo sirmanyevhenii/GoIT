@@ -1,0 +1,23 @@
+﻿0) используй f12 когда смотришь страницу в браузере, там сразу видно костыли
+
+1) http://take.ms/sOuq1    						+
+
+2) http://take.ms/JujmT    						+
+
+3) http://take.ms/ZeV42							+
+
+4) http://take.ms/x6siP							+
+- http://www.css-tricks.ru/articles/css/all-about-floats
+- https://learn.javascript.ru/float
+
+5) http://take.ms/dKxI8							+
+
+6) http://take.ms/DslaU							+
+
+7) http://take.ms/iHdAt
+
+8) http://take.ms/hRpyX							+
+
+9) http://take.ms/pp57y							+
+
+руководство по Flex - http://frontender.info/a-guide-to-flexbox/

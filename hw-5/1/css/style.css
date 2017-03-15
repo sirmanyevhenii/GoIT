@@ -1,0 +1,43 @@
+.wrapper {
+	margin: 0 auto;
+	width: 1215px;
+	height: 1064px;
+}
+
+/*===============  header  ===============*/
+
+
+.tm-login li {
+	float: right;
+	display: inline-block;
+
+}
+
+.tm-offer {
+	float: right;
+}
+
+.tm-menu li {
+	float: right;
+	display: inline-block;
+}
+
+.tm-menu a {
+	text-decoration: none;
+}
+
+header:after {
+	content: '.';
+	display: block;					/*clearfix*/
+	clear: both;
+	height: 0
+}
+
+
+/*===============  conteiner  ===============*/
+
+
+.conteiner {
+	height: 1028px;
+	background-image: url(../img/Background.png);
+}

@@ -1,0 +1,78 @@
+body {
+	background: #282828;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+th {
+	width: 60px;
+	height: 60px;
+	background: white;
+	border: 3px solid;
+	border-color:#282828;
+	color: rgba(1 1 1 0);
+}
+
+.six,
+.thirteen,
+.twenty,
+.twentyone,
+.fortythree {
+	background: #fff561;
+}
+
+.nine {
+	background: #ff5b3e;
+}
+
+.thirtyseven,
+.thirtyeight,
+.fortyfour,
+.fortyfive,
+.fortysix,
+.fortyseven {
+	background: #2f3534;
+}
+
+.fortyone {
+	background: #0b4886;
+}
+
+.thirteen {
+	border-bottom: none;
+}
+
+.twenty{
+	border-top: none;
+	border-right: none;
+}
+.twentyone {
+	border-top: none;
+	border-left: none;
+}
+
+
+.twentyseven {
+	border-bottom: none;
+}
+
+.twentyeight {
+	border-bottom: none;
+}
+
+.thirtyfive {
+	border-top: none;
+}
+
+.thirtyfour {
+	border-top: none;
+}
+.fortysix {
+	border-right: none;
+}
+.fortyseven {
+	border-left: none;
+}

@@ -10,10 +10,10 @@ body {
 	margin: 0 auto;
 	border-bottom: 3px solid #031d28;
 	box-shadow:
-  0 1px 4px rgba(0, 0, 0, .3),
- 	-23px 0 20px -23px rgba(0, 0, 0, .8),
- 	23px 0 20px -23px rgba(0, 0, 0, .8),
- 	0 0 40px rgba(0, 0, 0, .1) inset;
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
 }
 /* =============== google_head =============== */
 
@@ -48,13 +48,13 @@ body {
 }
 
 .contacts h3 {
-  padding-bottom: 5px;
-  font-size: inherit;
-  font-weight: 600;
+	padding-bottom: 5px;
+	font-size: inherit;
+	font-weight: 600;
 }
 
 .contacts p {
-  line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 .top_menu {
@@ -84,23 +84,23 @@ body {
 }
 
 .nepal {
-  background-image: url("../img/n_flag.png");
+	background-image: url("../img/n_flag.png");
 }
 
 .tibet {
-  background-image: url("../img/t_flag.png");
+	background-image: url("../img/t_flag.png");
 }
 
 .butan {
-  background-image: url("../img/b_flag.png");
+	background-image: url("../img/b_flag.png");
 }
 
 .shri-lanka {
-  background-image: url("../img/s_flag.png");
+	background-image: url("../img/s_flag.png");
 }
 
 .maldives {
-  background-image: url("../img/m_flag.png");
+	background-image: url("../img/m_flag.png");
 }
 
 .clearfix:after {
@@ -121,8 +121,8 @@ body {
 	border-bottom: 1px solid black;
 	background-image: url(../img/panel.png);
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.7);
-  -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.7);
-  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.7);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.7);
 }
 
 .menu ul {
@@ -162,18 +162,18 @@ body {
 	border-top: 1px solid black;
 	line-height: 1.5em;
 	-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.7);
-  -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.7);
-  box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.7);
+	box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.7);
 }
 
 /* =============== conteiner =============== */
 
 .conteiner {
-  display: flex;
-  justify-content: space-between;
-  width: 1000px; 
-  font-size: 14px;
-  color: #424c43;
+	display: flex;
+	justify-content: space-between;
+	width: 1000px; 
+	font-size: 14px;
+	color: #424c43;
 }
 
 .inform,
@@ -194,8 +194,8 @@ body {
 .inform h1,
 .news h1 {
 	text-align: center;
-  font-weight: 600;
-  font-size: 18px;
+	font-weight: 600;
+	font-size: 18px;
 }
 
 /* =============== footer =============== */

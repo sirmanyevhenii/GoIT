@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cadastre</title>
+	<link rel="stylesheet" href="fonts/stylesheet.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<div class="wrapper">
+	<div class="wrap">
 	 	<header>
 	 		<ul class="tm-login">
 	 			<li>Ola!</li>
@@ -17,7 +18,7 @@
 	 			<li><a href="#">Cadastre-se</a></li>
 	 		</ul>
 	 		
-	 		<p class="tm-offer"><img src="img/icons1.png" alt="flag"> Minhas Ofertas</p>
+	 		<a class="tm-offer" href="#"><img src="img/flag.png" alt="blue panel"> <span> Minhas Ofertas</span></a>
 
 	 		<ul class="tm-menu">
 	 			<li><a href="#">Meu YouBike</a></li>
@@ -29,11 +30,49 @@
 	 	</header>
 
 	 	<div class="conteiner">
-	 		<div class="form">
-	 			
+			<div class="cadastr center">
+				<p>Cadastre-se</p>
 	 		</div>
-	 	</div>
-	 </div> 
+
+ 			<div class="form">
+ 				<form action="#">
+ 					<div>
+ 						<input class="facebook" type="submit" value="Log in with Facebok">
+ 					</div>
+
+ 					<fieldset><legend>OU</legend></fieldset>
+  
+ 					<div class="enter-inform">
+ 						<input class="inform" type="text" name="first name" id="first name" placeholder="First Name">
+ 					</div>
+
+					<div class="enter-inform">
+ 						<input class="inform" type="text" name="last Name" id="last name" placeholder="Last Name">
+					</div>
+
+	 				<div class="enter-inform">
+	 					<input class="inform" type="text" name="email address" id="email address" placeholder="Email Address">
+					</div>
+
+	 				<div class="enter-inform">
+	 					<input class="inform" type="password" name="choose password" id="choose password" placeholder="Choose Password">
+	 				</div>
+
+	 				<div class="enter-inform">
+	 					<input class="inform" type="password" name="password confirm" id="password confirm" placeholder="Password Confirm">	 			
+	 				</div>
+					<div>
+	 					<input type="checkbox" id="checkbox">
+	 					<label for="checkbox">Send me Youbike updates and tips</label>
+	 				</div>
+
+	 				<input class="create" type="submit" value="Create my Account">
+
+	 				<p class="consent">By clicking the button above, you agree to the Terms of Service<br>Xiew our Privacy Policy.</p>
+ 				</form>
+ 			</div>
+		</div>
+	</div>
 
 </body>
 </html>

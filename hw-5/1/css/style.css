@@ -90,14 +90,14 @@ header:after {
 	font-weight: bold;
 	color: #fff;
 	padding: 22px 0;
-	margin: 200px 0 2px;	
-	align-content: center;
+	margin: 200px 0 1px;	
 }
 
 .form {
 	background: rgba(28, 28, 28, 0.70);
 	width: 560px;
 	color: #ccc;
+	margin: 1px 0 200px;
 	padding: 35px 0 20px 0;
 }
 
@@ -120,6 +120,7 @@ fieldset {
   border-left: none;
   border-right: none;
 }
+
 legend {
 	margin-bottom: 25px;
 }

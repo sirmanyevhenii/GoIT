@@ -40,26 +40,19 @@ header:after {
 
 .tm-offer {
 	float: right;
-	width: 122px;
-	height: 29px;
-	padding: 0 4px 0 14px;
+	display: block;
+	height: 21px;
+	margin: 2px 0 0 18px;
+	padding: 6px 18px 0 30px;
+	background-image: url(../img/flag.png);
+	background-repeat: no-repeat;
 	text-decoration: none;
 	color: #fff;
-	border-left: 1px solid #56a2dc;
-}
-
-.tm-offer img {
-  width: 22px;
-  margin-top: 3px;
-  display: inline-block;
-}
-
-.tm-offer p {
-  display: inline-block;
 }
 
 .tm-menu {
 	float: right;
+	border-right: 1px solid #56a2dc;
 }
 
 .tm-menu li {
@@ -87,22 +80,19 @@ header:after {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
 	text-align: center;
 }
 
-.register {	
+.cadastr {	
 	flex-grow: 2;
-}
-
-.cadastr {
 	background: rgba(28, 28, 28, 0.70);
 	width: 560px;
+	font-size: 2em;
+	font-weight: bold;
 	color: #fff;
-	font-size: 24px;
-	font-weight: 600;
 	padding: 22px 0;
-	margin-bottom: 2px;
+	margin-bottom: 2px;	
+	align-content: center;
 }
 
 .form {
@@ -131,11 +121,12 @@ fieldset {
   border-left: none;
   border-right: none;
 }
-.enter-inform {
-	margin: 10px 0;
+legend {
+	margin-bottom: 25px;
 }
 
 .inform {
+	margin: 10px 0;
 	width: 275px;
 	height: 36px;
 	background: #101010;

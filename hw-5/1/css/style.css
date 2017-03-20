@@ -7,8 +7,8 @@ body {
 }
 
 .wrap {
-	margin: 0 auto;
 	width: 100%;
+	margin: 0 auto;
 }
 
 /*===============  header  ===============*/
@@ -83,15 +83,14 @@ header:after {
 	text-align: center;
 }
 
-.cadastr {	
-	flex-grow: 2;
+.cadastr {
 	background: rgba(28, 28, 28, 0.70);
 	width: 560px;
 	font-size: 2em;
 	font-weight: bold;
 	color: #fff;
 	padding: 22px 0;
-	margin-bottom: 2px;	
+	margin: 200px 0 2px;	
 	align-content: center;
 }
 
@@ -164,4 +163,5 @@ legend {
 
 .consent {
 	margin-top: 20px;
+	font-size: 11px;
 }

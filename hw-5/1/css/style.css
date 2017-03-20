@@ -1,7 +1,7 @@
 body {	
 	background-image: url(../img/Background.png); 
-	background-repeat:no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	background-size: cover;	
 	font-family: 'helvetica Neue Regular', Arial, sans-serif;	
 	font-size: 14px;
 }
@@ -14,7 +14,8 @@ body {
 /*===============  header  ===============*/
 
 header {
-	background-image: url(../img/panel.png);
+	background-repeat: repeat-x;
+	background-image: url(../img/zergpanel.png);
 }
 
 header:after {
@@ -76,28 +77,29 @@ header:after {
 
 
 .conteiner {
-	display: flex;
+	flex-grow: 1;
+	padding: 200px;
+	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	text-align: center;
+	display: flex;
 }
 
 .cadastr {
-	background: rgba(28, 28, 28, 0.70);
-	width: 560px;
-	font-size: 2em;
-	font-weight: bold;
-	color: #fff;
 	padding: 22px 0;
-	margin: 200px 0 1px;	
+	margin-bottom: 2px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 2em;
+	width: 560px;
+	background: rgba(28, 28, 28, 0.70);
 }
 
 .form {
 	background: rgba(28, 28, 28, 0.70);
 	width: 560px;
 	color: #ccc;
-	margin: 1px 0 200px;
 	padding: 35px 0 20px 0;
 }
 
@@ -109,16 +111,15 @@ header:after {
 	border-radius: 5px;
 }
 
-fieldset {
-	margin: 35px 0 35px 132px;
-	width: 296px;
-	border-width: 2px;
-  border-style: groove;
-  border-color: threedface;
-  border-image: initial;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
+.fieldset {
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0 30px;
+	background-image: url(../img/line.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 280px;
+
 }
 
 legend {
@@ -163,11 +164,8 @@ legend {
 }
 
 .consent {
-	margin-top: 20px;
-	font-size: 11px;
-}
-
-.consent2 {
-	margin: 0;
+	margin: 0 auto;
+	padding-top: 22px;
+	width: 310px;
 	font-size: 11px;
 }

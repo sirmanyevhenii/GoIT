@@ -1,0 +1,156 @@
+
+/* =============== header =============== */
+
+header .phone1,
+header .phone2,
+header form,
+header a {
+	display: inline-block;
+}
+
+.headermenu:after {
+	content: '.';
+	display: block;					       /*== clearfix ==*/
+	clear: both;
+	height: 0;
+}
+
+.phone1,
+.phone2 {
+	float: left;
+}
+
+.log-in {
+	float: left;
+	width: 495px;
+	height: 25px;
+	background: #206988;
+  background: -webkit-linear-gradient(#206988 0%, #114165 60%, #0c3256 100%);
+  background: -o-linear-gradient(#206988 0%, #114165 60%, #0c3256 100%);
+  background: linear-gradient(#206988 0%, #114165 60%, #0c3256 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#206988', endColorstr='#0c3256',GradientType=0);
+	border-radius: 3px;
+}		
+
+.human {
+	display: inline-block;
+	width: 13px;
+	height: 17px;
+	margin: 3px 0 0 3px;
+	background-image: url(../img/human.png);
+}
+
+.log-in input {
+	width: 113px;
+	height: 15px;
+	margin-right: 8px;
+	font-size: 11px;
+	color: #97a2a6;
+}
+.log-in [placeholder] {
+	padding-left: 4px;
+}
+
+.enter,
+.registration {
+	text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+}
+
+.registration {
+	padding-left: 4px;
+	border-left: 1.5px solid #fff;
+}
+
+.fogot {
+	margin-left: 15px;
+	color: #bfbfbf;
+	font-size: 12px;
+}
+
+.logo {
+	width: 908px;
+	height: 235px;
+	background-image: url(../img/logo.png);
+}
+
+/* =============== sidebar =============== */
+
+.sidebar:after {
+	content: '.';
+	display: block;					       /*== clearfix ==*/
+	clear: both;
+	height: 0;
+}
+
+.card {
+	float: right;
+}
+
+nav {
+	float: right;
+}
+
+.mainmenu li {
+	display: inline-block;
+}
+
+/* =============== conteiner =============== */
+
+.conteiner {
+	display: flex;
+}
+
+.catalog {
+	width: 19%;
+}
+
+.content {
+	width: 60%;
+}
+
+.brend {
+	width: 19%;
+}
+
+/* =============== footer =============== */ 
+
+footer {
+	background: #213a4d;
+	width: 91%;
+	padding: 1px 0 50px 0;
+	margin: 0 auto;
+}
+
+.footermenu {
+	text-align: center;
+}
+
+.footermenu li {
+	display: inline-block;
+	border-left: 2px solid #afb7bc;
+}
+
+.footermenu li:first-child {
+	border: none;
+}
+
+.footermenu li a {
+	text-decoration: none;
+	padding: 0 12px;
+	color: #afb7bc;
+	font-size: 13px;
+}
+
+.footermenu li a:hover {
+	color: #52abcb;
+	font-size: 13px;
+}
+
+.producer {
+	margin: 20px 0 0 0;
+	color: #7f4740;
+	text-align: center;
+	font-size: 10px;
+}

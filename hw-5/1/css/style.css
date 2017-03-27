@@ -27,7 +27,7 @@ header:after {
 	content: '.';
 	display: block;					       /*== clearfix ==*/
 	clear: both;
-	height: 0
+	height: 0;
 }
 
 .tm-login {

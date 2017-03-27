@@ -1,3 +1,6 @@
+.wrapper {
+	width: 100%;
+}
 
 /* =============== header =============== */
 
@@ -9,16 +12,38 @@ header a {
 }
 
 .headermenu:after {
-	content: '.';
+	content: ' ';
 	display: block;					       /*== clearfix ==*/
 	clear: both;
 	height: 0;
 }
 
-.phone1,
+.phone1 {
+	float: left;
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 30px;
+}
+
 .phone2 {
 	float: left;
 }
+
+.phone1:before {
+	content: " ";
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-image: url(../img/circle.png);
+	margin-left: 7px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.pfone1:before
 
 .log-in {
 	float: left;
@@ -31,14 +56,6 @@ header a {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#206988', endColorstr='#0c3256',GradientType=0);
 	border-radius: 3px;
 }		
-
-.human {
-	display: inline-block;
-	width: 13px;
-	height: 17px;
-	margin: 3px 0 0 3px;
-	background-image: url(../img/human.png);
-}
 
 .log-in input {
 	width: 113px;
@@ -78,7 +95,7 @@ header a {
 /* =============== sidebar =============== */
 
 .sidebar:after {
-	content: '.';
+	content: ' ';
 	display: block;					       /*== clearfix ==*/
 	clear: both;
 	height: 0;
@@ -103,7 +120,7 @@ nav {
 }
 
 .catalog {
-	width: 19%;
+	width: 20%;
 }
 
 .content {
@@ -111,7 +128,7 @@ nav {
 }
 
 .brend {
-	width: 19%;
+	width: 18%;
 }
 
 /* =============== footer =============== */ 

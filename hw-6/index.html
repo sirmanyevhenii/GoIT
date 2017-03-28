@@ -9,9 +9,8 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<div class="headermenu">
-				<span class="phone1">(044)123-45-67</span>
-				<span class="phone2">(044)567-89-10</span>
+			<div class="headermenu clearfix">
+				<span class="phone">(044)123-45-67 (044)567-89-10</span>
 				<div class="log-in">
 					<form class="formlogin" action="#">
 						<input type="text" name="login" id="login" placeholder="логин">
@@ -21,71 +20,67 @@
 					<a href="#" class="registration">регистрация</a>
 					<a href="#" class="fogot">забыли пароль?</a>
 				</div>
-				<nav>
-						
+				<nav class="navheader">
+					<a class="nav1" href="#"></a>
+					<a class="nav2" href="#"></a>
+					<a class="nav3" href="#"></a>
 				</nav>
 			</div>
-			<div class="logo"><a href="#"></a></div>
+			<div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
 		</header>
 
-		<div class="sidebar">
-			<div class="card">
-				<span class="first">товаров:</span><span class="second">0
-				</span><span class="first">на суму:</span><span class="second">0,00 грн</span>
-			</div>
-			<nav>
-				<ul class="mainmenu">
-					<li><a href="#" class="">О КОМПАНИИ</a></li>
-					<li><a href="#" class="">ОПЛАТА</a></li>
-					<li><a href="#" class="">ДОСТАВКА</a></li>
-					<li><a href="#" class="">СТАТЬИ</a></li>
-					<li><a href="#" class="">КОНТАКТЫ</a></li>
+		<div class="sidebar clearfix">
+			<nav class="mainmenu">
+				<ul>
+					<li><a href="#">О КОМПАНИИ</a></li>
+					<li><a href="#">ОПЛАТА</a></li>
+					<li><a href="#">ДОСТАВКА</a></li>
+					<li><a href="#">СТАТЬИ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
 				</ul>
 			</nav>
+			<div class="card">
+				<span class="first">товаров:</span><span class="second">0
+				</span><span class="first">на суму:</span><span class="second">0,00 грн.</span>
+			</div>
 		</div>
 
-		<div class="find">
-			<div class="findauto"></div>
-			<div class="findtire"></div>
-			<div class="finddrive"></div>
-		</div>
+		<div class="find"><img src="img/find.png"	alt="find"></div>
 
 		<div class="conteiner">
 			<aside class="catalog">
-				<h4>КАТАЛОГ ПРОДУКЦИИ</h4>
-				<ul>
-					<li>ШИНЫ</li>
-					<ul class="catalogtire">
-						<li><a href="#">Наименование 1</a></li>
-						<li><a href="#">Наименование 2</a></li>
-						<li><a href="#">Наименование 3</a></li>
-						<li><a href="#">Наименование 4</a></li>
-					</ul></li>
-				<li>ДИСКИ</li>
+				<h5 class="catalogproduct file">КАТАЛОГ ПРОДУКЦИИ:</h5>
+				<h4 class="circle">ШИНЫ</h4> 
+				<ul class="catalogtire">
+					<li><a href="#">Наименование 1</a></li>
+					<li><a href="#">Наименование 2</a></li>
+					<li><a href="#">Наименование 3</a></li>
+					<li><a href="#">Наименование 4</a></li>
+				</ul>
+				<h4 class="circle">ДИСКИ</h4>
 				<ul class="catalogdrive">
 					<li><a href="#">Наименование 1</a></li>
 					<li><a href="#">Наименование 2</a></li>
 					<li><a href="#">Наименование 3</a></li>
 					<li><a href="#">Наименование 4</a></li>
 				</ul>
-				<li>БОЛТЫ</li>
+				<h4 class="circle">БОЛТЫ</h4>
 				<ul class="catalogbolt">
 					<li><a href="#">Наименование 1</a></li>
 					<li><a href="#">Наименование 2</a></li>
 					<li><a href="#">Наименование 3</a></li>
 					<li><a href="#">Наименование 4</a></li>
-				</ul>
 			</aside>
 			<div class="content"></div>
 			<aside class="brand">
-				<h4>БРЕНДЫ</h4>
-				<h3>ШИНЫ</h3>
+				<h5 class="file">БРЕНДЫ</h5>
+				<h4 class="circle">ШИНЫ</h4>
 				<ul class="brandtire">
 					<li><a href="#">Бренд 1</a></li>
 					<li><a href="#">Бренд 2</a></li>
 					<li><a href="#">Бренд 3</a></li>
 				</ul>
-				<h3>ДИСКИ</h3>
+				<h4 class="circle">ДИСКИ</h4>
 				<ul class="branddrive">
 					<li><a href="#">Бренд 1</a></li>
 					<li><a href="#">Бренд 2</a></li>
@@ -93,6 +88,8 @@
 				</ul>
 			</aside>
 		</div>
+
+		<div class="footbrand"><img src="img/brand.png" alt="brand tire"></div>
 
 		<footer>
 			<ul class="footermenu">

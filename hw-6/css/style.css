@@ -39,9 +39,17 @@ header a {
 	background-repeat: no-repeat;
 	height: 25px;
 	line-height: 25px;
+}
+
+.phone a {
 	font-size: 18px;
 	color: #5e696d;
 	letter-spacing: 0.5px;
+	text-decoration: none;
+}
+
+.number {
+	margin-left: 4px;
 }
 
 .log-in {

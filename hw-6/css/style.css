@@ -1,8 +1,9 @@
 body {
-width: 100%;
+	width: 100%;
 }
 
 .wrapper {
+	width: 910px;
 	margin: 0 auto;
 	padding: 18px 45px;
 }
@@ -15,10 +16,6 @@ width: 100%;
 }
 
 /* =============== header =============== */
-
-header {
-	width: 910px;
-}
 
 header form,
 header a {
@@ -159,7 +156,6 @@ header a {
 
 .sidebar {
 	margin-top: 4px;
-	width: 910px;
 	height: 32px;
 	background-image: url(../img/sidebar.png);
 	border: 1px solid #2c345a;
@@ -239,7 +235,6 @@ line-height: 32px;
 
 
 .find {
-	width: 910px;
 	margin-top: 3px;
 	background-image: url(../img/find.png);
 	background-repeat: no-repeat;
@@ -438,7 +433,6 @@ input [type="checkbox"]:checked + label::before {
 /* =============== footer =============== */ 
 
 .footbrand {
-	width: 910px;
 	text-align: center;
 }
 

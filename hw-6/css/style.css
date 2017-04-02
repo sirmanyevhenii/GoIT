@@ -30,22 +30,52 @@ header a {
 	float: left;
 	margin: 0;
 	margin-top: 3px;
-	padding: 0 15px 0 25px;
-	background-image: url(../img/phone.png);
+	padding: 0 15px 0 0;
+	height: 22px;
+	line-height: 22px;
+}
+
+.handset {
+	height: 22px; width: 22px;
+	position: absolute;
+	margin-right: 25px;
+	background-image: url(../img/brand.png);
+	background-position: -61px -119px;
 	background-repeat: no-repeat;
-	height: 25px;
-	line-height: 25px;
+	display: inline-block;
 }
 
 .phone a {
 	font-size: 18px;
+	height: 22px;
 	color: #5e696d;
 	letter-spacing: 0.5px;
 	text-decoration: none;
+	display: inline-block;
+
+}
+
+.number1 {
+	margin-left: 25px;
 }
 
 .number {
-	margin-left: 4px;
+	margin-left: 5px;
+}
+
+#enter,
+#registration {
+	background: inherit;
+	border: none;
+	color: #fff;
+	width: 25px;
+	padding: 0;
+	cursor: pointer;
+}
+
+#registration {
+	width: 65px;
+	margin-left: 5px;
 }
 
 .log-in {
@@ -65,17 +95,28 @@ header a {
 	border-radius: 3px;
 }
 
-.formlogin:before {
-	content: " ";
-	display: inline-block;
-	color:#fff;
-	width: 14px;
-	background-image: url(../img/human.png);
-	height: 17px;
+.human {
+	height: 22px; width: 22px;
 	position: absolute;
-	margin-left: 7px;
-	left: 0;
-	bottom: 4px;
+	left: 6px; top: 3px;
+	background-image: url(../img/brand.png);
+	background-position: -37px -119px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.formlogin {
+		position: relative;
+}
+
+.formlogin:after {
+	content: " ";
+	width: 1px; height: 14px;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 74px;
+	top: 4px;
 }
 
 .log-in input {
@@ -167,9 +208,6 @@ header a {
 
 .mainmenu {
 	float: left;
-}
-
-.mainmenu ul {
 	margin: 0 auto;
   padding-left: 125px;
 }
@@ -201,33 +239,48 @@ line-height: 32px;
 .card {
 	float: right;
 	position: relative;
-	height: 32px;
+	width: 220px; height: 32px;
 	line-height: 32px;
 }
 
-.first {
-	color: #8a9296;
-	font-size: 11px;
+.iconcard {
+	height: 22px; width: 22px;
+	position: absolute;
+	top: 7px;
+	background-image: url(../img/brand.png);
+	background-position: -92px -5px;
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
-.second {
+.goods {
+	color: #8a9296;
+	font-size: 11px;
+	display: inline-block;
+	margin: 0 0 0 27px;
+}
+
+.goods-count {
+	display: inline-block;
 	color: #0d5a8f;
 	font-size: 12px;
 	font-weight: 600;
-	margin-right: 15px;
-	padding-left: 12px;
+	margin: 0;
 }
 
-.card:before {
-	content: " ";
-	background-image: url(../img/card.png);
+.on-price {
 	display: inline-block;
-	width: 21px;
-	height: 17px;
-	position: absolute;
-	bottom: 6px;
-	left: -27px;
-	z-index: 2;
+	color: #8a9296;
+	font-size: 11px;
+	margin: 0 0 0 8px;
+}
+
+.price-value {
+	display: inline-block;
+	color: #0d5a8f;
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0 0 0 8px;
 }
 
 
@@ -255,22 +308,51 @@ line-height: 32px;
 	text-decoration: none;
 }
 
-.circle {
-	width: 125px;
-	height: 23px;
+.catalogproduct {
+	position: relative;
+	display: inline-block;
+	width: 182px; height: 25px;
+	line-height: 25px;
 	border: 1px solid gray;
-	border-radius: 10px;
-	background-image: url(../img/circle.png);
+	border-radius: 11px;
+	margin: 2px 0 0 0;
+	letter-spacing: -0.2px;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
+	-moz-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
+	box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
+}
+
+.icon-file {
+	position: absolute;
+	margin-top: 2px;
+	height: 22px; width: 22px;
+	background-image: url(../img/brand.png);
+	background-position: -5px -119px;
 	background-repeat: no-repeat;
-	background-position: 3px;
+	display: inline-block;
+}
+
+.circle {
+	display: inline-block;
+	width: 125px; height: 25px;
+	border: 1px solid gray;
+	border-radius: 12px;
 	margin: 13px 0 0 0;
-	padding-left: 28px;
-	height: 27px;
 	line-height: 26px;
 }
 
+.icon-circle {
+	position: absolute;
+	margin-left: 2px;
+	height: 25px; width: 25px;
+	background-image: url(../img/brand.png);
+	background-position: -123px -5px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
 .catalog ul {
-	margin: 6px 0;
+	margin: 6px 0 0 0;
 	padding-left: 45px;
 }
 
@@ -294,25 +376,6 @@ line-height: 32px;
 	font-size: 14px;
 	font-style: italic;
 	color: #313a55;
-}
-
-.catalogproduct {
-	display: block;
-	width: 152px;
-	border: 1px solid gray;
-	border-radius: 10px;
-	line-height: 25px;
-	background-image: url(../img/file.png);
-	background-repeat: no-repeat;
-	background-position: 3px;
-	margin: 2px 0 0 0;
-	padding-left: 28px;
-	height: 25px;
-	line-height: 25px;
-	letter-spacing: -0.2px;
-	-webkit-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
-	-moz-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
-	box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
 }
 
 .content {
@@ -365,8 +428,8 @@ line-height: 32px;
 }
 
 .price {
-color: #114165;
-font-size: 16px;
+	color: #114165;
+	font-size: 16px;
 }
 
 .brand {
@@ -376,16 +439,16 @@ font-size: 16px;
 
 .brand h4 {
 	width: 105px;
-	height: 27px;
-	margin-left: 15px;
+	height: 25px;
 	border: 1px solid gray;
-	border-radius: 10px;
+	border-radius: 12px;
 }
 
 .brandtire,
 .branddrive {
-	margin-top: 5px;
-	margin-left: 20px;
+	margin-left: 10px;
+	padding: 0;
+	border: none;
 }
 
 
@@ -397,6 +460,7 @@ font-size: 16px;
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label {
   position: relative;
+  margin-left: 7px;
   padding-left: 25px;
   cursor: pointer;
 }
@@ -449,8 +513,68 @@ font-size: 16px;
 	text-align: center;
 }
 
-.footbrand img {
-	margin: 38px 0 26px 0;
+.footbrand ul {
+ padding: 0;
+ margin: 25px 0 20px;
+}
+
+.footbrand li {
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	padding: 6px;
+}
+
+.footbrand a {
+	display: block;
+}
+
+.toyo {
+	width: 83px; height: 21px;
+	background-image: url(../img/brand.png);
+	background-position: -93px -143px;
+}
+
+.ridges {
+	width: 97px; height: 14px;
+	background-image: url(../img/brand.png);
+	background-position: -93px -119px;
+}
+
+.continental {
+	width: 77px; height: 21px;
+	background-image: url(../img/brand.png);
+	background-position: -5px -28px;
+}
+
+.dodper {
+	width: 59px; height: 22px;
+	background-image: url(../img/brand.png);
+	background-position: -5px -59px;
+}
+
+.avon {
+	width: 77px; height: 13px;
+	background-image: url(../img/brand.png);
+	background-position: -5px -6px;
+}
+
+.factory {
+	width: 57px; height: 27px;
+	background-image: url(../img/brand.png);
+	background-position: -74px -82px;
+}
+
+.pirelli {
+	width: 61px; height: 14px;
+	background-image: url(../img/brand.png);
+	background-position: -156px -5px;
+}
+
+.dunlop {
+	width: 72px; height: 13px;
+	background-image: url(../img/brand.png);
+	background-position: -74px -59px;
 }
 
 footer {
@@ -464,18 +588,26 @@ footer {
 	text-align: center;
 }
 
-.footermenu li {
-	display: inline-block;
-	border-left: 2px solid #afb7bc;
+.footermenu ul {
+	height: 14px;
+	line-height: 14px;
 }
 
-.footermenu li:first-child {
-	border: none;
+.footermenu li {
+	display: inline-block;
+}
+.ocompani:after,
+.delivery:after,
+.footarticle:after {
+	content: " ";
+	display: inline-block;
+	width: 1px; height: 13px;
+	background-color: #afb7bc;
 }
 
 .footermenu li a {
 	text-decoration: none;
-	padding: 0 12px;
+	padding: 0 12px 0 6px;
 	color: #afb7bc;
 	font-size: 13px;
 }

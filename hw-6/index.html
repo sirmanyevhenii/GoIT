@@ -10,14 +10,15 @@
 	<div class="wrapper">
 		<header>
 			<div class="headermenu clearfix">
-				<span class="phone"><a href="tel:0441234567">(044)123-45-67</a><a class="number" href="tel:0445678910">(044)567-89-10</a></span>
+				<div class="phone"><i class="handset"></i><a class="number1" href="tel:0441234567">(044)123-45-67</a><a class="number" href="tel:0445678910">(044)567-89-10</a></div>
 				<div class="log-in">
+					<i class="human"></i>
 					<form class="formlogin" action="#">
 						<input type="text" name="login" id="login" placeholder="логин">
 						<input type="password" name="password" id="password" placeholder="пароль">
+						<input type="submit" name="enter" id="enter" value="вход">
+						<input type="submit" name="registration" id="registration" value="регистрация">
 					</form>
-					<a href="#" class="enter">вход</a>
-					<a href="#" class="registration">регистрация</a>
 					<a href="#" class="fogot">забыли пароль?</a>
 				</div>
 				<nav class="navheader">
@@ -29,48 +30,55 @@
 			<div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
 		</header>
 
-		<div class="sidebar clearfix">
-			<nav class="mainmenu">
-				<ul>
-					<li><a href="#">О КОМПАНИ</a></li>
-					<li><a href="#">ОПЛАТА</a></li>
-					<li><a href="#">ДОСТАВКА</a></li>
-					<li><a href="#">СТАТЬИ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
-				</ul>
+		<nav class="sidebar clearfix">
+			<ul class="mainmenu">
+				<li><a href="#">О КОМПАНИ</a></li>
+				<li><a href="#">ОПЛАТА</a></li>
+				<li><a href="#">ДОСТАВКА</a></li>
+				<li><a href="#">СТАТЬИ</a></li>
+				<li><a href="#">КОНТАКТЫ</a></li>
+			</ul>
+			<nav class="card">
+				<i class="iconcard"><a href="#"></a></i>
+				<p class="goods"><span>товаров:</span></p>
+				<p class="goods-count"><span>0</span></p>
+				<p class="on-price"><span>на суму:</span></p>
+				<p class="price-value"><span>0,00 грн.</span></p>
 			</nav>
-			<div class="card">
-				<span class="first">товаров:</span><span class="second">0
-				</span><span class="first">на суму:</span><span class="second">0,00 грн.</span>
-			</div>
-		</div>
+		</nav>
 
 		<div class="find"><img src="img/find.png"	alt="find"></div>
 
 		<div class="conteiner">
 			<aside class="catalog">
-				<h5 class="catalogproduct file">КАТАЛОГ ПРОДУКЦИИ:</h5>
-				<h4 class="circle">ШИНЫ</h4> 
-				<ul class="catalogtire">
-					<li><a href="#">Наименование 1</a></li>
-					<li><a href="#">Наименование 2</a></li>
-					<li><a href="#">Наименование 3</a></li>
-					<li><a href="#">Наименование 4</a></li>
-				</ul>
-				<h4 class="circle">ДИСКИ</h4>
-				<ul class="catalogdrive">
-					<li><a href="#">Наименование 1</a></li>
-					<li><a href="#">Наименование 2</a></li>
-					<li><a href="#">Наименование 3</a></li>
-					<li><a href="#">Наименование 4</a></li>
-				</ul>
-				<h4 class="circle">БОЛТЫ</h4>
-				<ul class="catalogbolt">
-					<li><a href="#">Наименование 1</a></li>
-					<li><a href="#">Наименование 2</a></li>
-					<li><a href="#">Наименование 3</a></li>
-					<li><a href="#">Наименование 4</a></li>
-				</ul>
+				<h5 class="catalogproduct"><i class="icon-file"></i>&emsp;&emsp;КАТАЛОГ ПРОДУКЦИИ:</h5>
+				<section>
+					<h4 class="circle"> <i class="icon-circle"></i>&emsp;&emsp;ШИНЫ</h4> 
+					<ul class="catalogtire">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+				</section>
+				<section>
+					<h4 class="circle"> <i class="icon-circle"></i>&emsp;&emsp;ДИСКИ</h4>
+					<ul class="catalogdrive">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+				</section>
+				<section>
+					<h4 class="circle"> <i class="icon-circle"></i>&emsp;&emsp;БОЛТЫ</h4>
+					<ul class="catalogbolt">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+				</section>
 			</aside>
 
 			<div class="content">
@@ -133,44 +141,57 @@
 				<div class="article">
 					<a href="#">
 						<h4>Hankook</h4>
-						<span class="model">K 708155/65 R14</span>
+						<div class="model">K 708155/65 R14</div>
 						<div class="figcaption"><img src="img/article9.png" alt="tire"></div>
 						<p><span class="price">393.00</span> грн</p>
 					</a></div>
 			</div>
 
 			<aside class="brand">
-				<h5 class="catalogproduct file">БРЕНДЫ</h5>
-				<h4 class="circle">ШИНЫ</h4>
-				<form class="brandtire">
-  				<input type="checkbox" id="checkbox-1" name="checkbox-1">
-  				<label for="checkbox-1">Бренд 1</label><br>
-  				<input type="checkbox" id="checkbox-2" name="checkbox-2">
-  				<label for="checkbox-2">Бренд 2</label><br>
-  				<input type="checkbox" id="checkbox-3" name="checkbox-3">
-  				<label for="checkbox-3">Бренд 3</label>
- 				</form>
-				<h4 class="circle">ДИСКИ</h4>
-				<form class="branddrive">
-  				<input type="checkbox" id="checkbox-4" name="checkbox-4">
-  				<label for="checkbox-4">Бренд 1</label><br>
-  				<input type="checkbox" id="checkbox-5" name="checkbox-5">
-  				<label for="checkbox-5">Бренд 2</label><br>
-  				<input type="checkbox" id="checkbox-6" name="checkbox-6">
-  				<label for="checkbox-6">Бренд 3</label>
- 				</form>
+				<h5 class="catalogproduct file"><i class="icon-file"></i>&emsp;&emsp;БРЕНДЫ</h5>
+				<form action="#">
+					<fieldset class="brandtire">
+						<h4 class="circle"> <i class="icon-circle"></i>&emsp;&emsp;ШИНЫ</h4>
+  					<input type="checkbox" id="checkbox-1" name="checkbox-1">
+  					<label for="checkbox-1">Бренд 1</label><br>
+  					<input type="checkbox" id="checkbox-2" name="checkbox-2">
+  					<label for="checkbox-2">Бренд 2</label><br>
+  					<input type="checkbox" id="checkbox-3" name="checkbox-3">
+  					<label for="checkbox-3">Бренд 3</label>
+ 					</fieldset>
+ 					<fieldset class="branddrive">
+						<h4 class="circle"> <i class="icon-circle"></i>&emsp;&emsp;ДИСКИ</h4>
+  					<input type="checkbox" id="checkbox-4" name="checkbox-4">
+  					<label for="checkbox-4">Бренд 1</label><br>
+  					<input type="checkbox" id="checkbox-5" name="checkbox-5">
+  					<label for="checkbox-5">Бренд 2</label><br>
+  					<input type="checkbox" id="checkbox-6" name="checkbox-6">
+  					<label for="checkbox-6">Бренд 3</label>
+ 					</fieldset>
+ 					</form>
  				<p><button>ВЫБРАТЬ</button></p>
 			</aside>
 		</div>
 
-		<div class="footbrand"><img src="img/brand.png" alt="brand tire"></div>
+		<div class="footbrand">
+			<ul>
+				<li><a href="#" class="toyo"></a></li>
+				<li><a href="#" class="ridges"></a></li>
+				<li><a href="#" class="continental"></a></li>
+				<li><a href="#" class="dodper"></a></li>
+				<li><a href="#" class="avon"></a></li>
+				<li><a href="#" class="factory"></a></li>
+				<li><a href="#" class="pirelli"></a></li>
+				<li><a href="#" class="dunlop"></a></li>
+			</ul>
+		</div>
 
 		<footer>
 			<ul class="footermenu">
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Доставка</a></li>
-				<li><a href="#">Статьи</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li class="ocompani"><a href="#">О компании</a></li>
+				<li class="delivery"><a href="#">Доставка</a></li>
+				<li class="footarticle"><a href="#">Статьи</a></li>
+				<li class=""><a href="#">Контакты</a></li>
 			</ul>
 			<p class="producer">Создание сайта &#169; Global Vision</p>
 		</footer>

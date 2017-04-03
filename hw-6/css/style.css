@@ -111,12 +111,12 @@ header a {
 
 .formlogin:after {
 	content: " ";
-	width: 1px; height: 14px;
+	width: 1px; height: 12px;
 	background-color: #fff;
 	display: inline-block;
 	position: absolute;
-	right: 74px;
-	top: 4px;
+	right: 75px;
+	top: 5px;
 }
 
 .log-in input {
@@ -398,6 +398,10 @@ line-height: 32px;
 
 .article a {
 	text-decoration: none;
+}
+
+.article figure {
+	margin: 0;
 }
 
 .article h4 {

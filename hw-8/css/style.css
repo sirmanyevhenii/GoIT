@@ -37,26 +37,27 @@ body {
 .nav {
 	position: relative;
 	width: 245px;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 14px;
 	margin-bottom: 125px;
 	font-size: 1.5em;
 }
 
-.nav-item {
-	text-align: center;
-	margin-top: 30px;
-}
 
-.nav-item__link {
+.nav__link {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 50px;
+	display: block;
 	font-family: 'League Gothic Regular', sans-serif;
 	font-size: 1.3em;
 	color: #fff;
 	text-decoration: underline #edbfff;
 }
 
-.nav-item__link:activ {
-	
+.nav__link:active,
+.nav__link:hover > .nav-list {
+	display: block;
 }
 
 .nav-list {

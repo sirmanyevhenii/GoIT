@@ -1,12 +1,11 @@
 
 @media all and (min-width: 480px) and ( max-width: 767px) {
 	
-
-	body {
+	.wrapper {
 		min-width: 480px;
 		max-width: 767px;
 	}
-
+	/* header */
 	.slider-article {
 		margin-left: 30px;
 		width: 240px
@@ -15,14 +14,47 @@
 	.slider__phone {
 		position: absolute;
 		top: -100px;
-		right: 25px;
+		right: 30px;
 		display: block;
 		width: 187px; height: 260px;
 		background: url(../img/Iphone.png);
+	}
+
+	.slider__list {
+		margin-top: 122px;
+	}
+	
+	.article {
+		width: 26.25rem;
+	}
+
+	.article__exept--480 {
+		display: inline;
+	}
+
+	.box-article {
+		width: 100%;
+	}
+
+	.box-article-article {
+		width: 26rem;
+	}
+
+	.box-article-article__except--480 {
+		display: inline;
+	}
+
+	.blog-section {
+		margin: 0 auto;
+		width: 21.25rem;
+	}
+
+	.blog-article {
+		padding: 1em 0 1em 3.5em;
+	}
+
+	.blog-article__text--480 {
+		display: inline;
+	}
+
 }
-
-
-
-
-
-} 

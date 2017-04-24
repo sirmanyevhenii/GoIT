@@ -1,11 +1,11 @@
 
 @media all and (min-width: 480px) and ( max-width: 767px) {
 	
-	.wrapper {
-		min-width: 480px;
-		max-width: 767px;
-	}
 	/* header */
+
+	.slider {
+		margin-top: -150px;
+	}
 	.slider-article {
 		margin-left: 30px;
 		width: 240px
@@ -24,20 +24,9 @@
 		margin-top: 122px;
 	}
 	
-	.article {
-		width: 26.25rem;
-	}
 
 	.article__exept--480 {
 		display: inline;
-	}
-
-	.box-article {
-		width: 100%;
-	}
-
-	.box-article-article {
-		width: 26rem;
 	}
 
 	.box-article-article__except--480 {
@@ -46,15 +35,66 @@
 
 	.blog-section {
 		margin: 0 auto;
-		width: 21.25rem;
+		width: 71%;
 	}
 
-	.blog-article {
-		padding: 1em 0 1em 3.5em;
+	.blog-title {
+	margin-left: 10px;
+	}
+
+	.blog-article__title--480 {
+		display: inline;
 	}
 
 	.blog-article__text--480 {
 		display: inline;
+	}
+
+	.brand__item {
+		flex-basis: 33%;
+	}
+
+	.wrapper-aside--news {
+		display: block;
+	}
+
+	.article--news {
+		margin-top: 20px;
+	}
+
+	.article__title--news {
+		margin: 0;
+		color: #454545;
+	}
+
+	.article__except--news {
+		margin: 0;
+		color: #454545;
+	}
+
+	.footer {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 70px;
+	}
+
+	.nav-footer {
+		display: block;
+	}
+
+	.nav-footer__item {
+		display: inline-block;
+	}
+
+	.nav-footer__link {
+		display: block;
+		padding: 0 10px;
+		font-family: 'League Gothic Regular', Arial, sans-serif;
+		color: #fff;
+		font-size: 1rem;
+		text-transform: uppercase;
 	}
 
 }

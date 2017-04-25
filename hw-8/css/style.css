@@ -31,6 +31,10 @@ a {
 	min-width: 320px;
 }
 
+.container {
+	min-width: 320px;
+}
+
 .wrapper-header {
 	padding-top: 70px;
 	background: url(../img/background__top.png);
@@ -529,6 +533,7 @@ a {
 }
 
 .footer__text {
+	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.7rem;
 	color: #fff;

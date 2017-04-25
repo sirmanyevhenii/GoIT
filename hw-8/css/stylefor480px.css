@@ -80,7 +80,13 @@
 
 	.article__except--news {
 		margin: 0;
+		max-height: 5rem;
+		overflow: hidden;
 		color: #454545;
+	}
+
+	.wrapper-footer {
+		padding: 50px 0 70px;
 	}
 
 	.footer {

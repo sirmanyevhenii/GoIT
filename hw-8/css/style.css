@@ -299,6 +299,10 @@ a {
 	font-size: 1.1rem;
 }
 
+.article__link:hover {
+	text-shadow: 1px 2px 3px #666;
+}
+
 /* wrapper-blogbox */
 
 .wrapper-blogbox {

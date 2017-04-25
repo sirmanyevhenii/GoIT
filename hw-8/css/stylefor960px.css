@@ -177,6 +177,10 @@
 		display: block;
 	}
 
+	.aside--news {
+		align-items: flex-start;
+	}
+
 	.article--news {
 		margin-top: 20px;
 		width: 26%;
@@ -230,6 +234,7 @@
 	}
 
 	.footer {
+		padding: 0 1rem;
 		width: 100%;
 		max-width: 960px;
 		display: flex;

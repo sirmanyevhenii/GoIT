@@ -112,7 +112,7 @@ a {
 
 .nav__link {
 	height: 60px;
-	font-family: font-family: 'League Gothic Regular', Arial, sans-serif;
+	font-family: 'League Gothic Regular', Arial, sans-serif;
 	color: #fefefe;
 	font-size: 24px;
 	line-height: 60px;
@@ -503,17 +503,17 @@ a {
   background-position: -166px -36px;
 }
 
+.wrapper-aside--news {
+	display: none;
+	background: #ececec;
+}
+
 .logo--footer {
 	display: none;
 }
 
 .article-news__copyring {
 	display: none;
-}
-
-.wrapper-aside--news {
-	display: none;
-	background: #ececec;
 }
 
 .wrapper-footer {

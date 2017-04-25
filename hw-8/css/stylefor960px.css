@@ -1,15 +1,17 @@
-@media all and (min-width: 768px) and ( max-width: 959px) {
-	
+@media screen and (min-width: 960px) {
+
 	.wrapper {
-		min-width: 768px;
-		max-width: 959px;
+		min-width: 960px;
+	}
+
+	.header {
+		max-width: 960px;
 	}
 
 	.main-menu {
-		padding-left: 3%;
 		display: flex;
-		flex-flow: column wrap;
-		align-items: flex-start;
+		flex-flow: row nowrap;
+		justify-content: space-between;
 	}
 	
 	.logo {
@@ -35,7 +37,7 @@
 		font-family: 'League Gothic Regular', Arial, sans-serif;
 		color: #fff;
 		font-size: 1.5rem;
-		text-transform: uppercase;
+		text-transform: uppercase;		
 		border-bottom: 2px solid rgba(0,0,0,0);
 	}
 
@@ -49,37 +51,41 @@
 
 	.slider__arov--left {
 		position: absolute;
-		top: 50px;
-		left: 2px;
+		top: 55px;
+		left: 1px;
 	}
 
 	.slider__arov--right {
 		position: absolute;
-		top: 50px;
-		right: 2px;
+		top: 55px;
+		right: 1px;
 	}
 
 	.slider-article {
 		text-align: left;
 	}
 
+	.slider-article__subtitle--960 {
+		display: inline;
+	}
+
 	.slider-article__text {
 		display: block;
-		width: 40%;
+		width: 50%;
 		font-family: 'Open Sans Light', sans-serif;
 		font-size: 0.9rem;
 		color: #fff;
 	}
 
 	.slider-article__text--960 {
-		display: none;
+		display: inline;
 	}
 
 	.slider__phone {
 		bottom: 150px;
 		right: 60px;
 		display: block;
-		width: 16.6rem; height: 23.1rem;
+		width: 266px; height: 370px;
 		background: url(../img/Iphone.png);
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -90,29 +96,60 @@
 		float: right;
 	}
 
+
 	.article__exept--480 {
 		display: inline;
 	}
 
 	.aside {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 2.5rem 0;
 		justify-content: space-around;
 	}
 
 	.article {
-		width: 30%;
-}
+		width: 27%;
+	}
+
+	.article__icon {
+		display: none;
+	}
+
+	.article__icon--960 {
+		width: 27px; height: 26px;
+		display: inline-block;
+		background-image: url(../img/wrench.png);
+	}
+
+	.article__icon--cloud {
+		width: 30px; height: 26px;
+		display: inline-block;
+		background-image: url(../img/cloud.png);
+	}
+
+	.article__icon--mus {
+		width: 27px; height: 27px;
+		display: inline-block;
+		background-image: url(../img/mus.png);
+	}
 
 	.blogbox {
+		max-width: 960px;
 		justify-content: space-around;
-			padding: 70px 20px;
+		padding: 70px 0;
 	}
 	
 	.box-article {
-		width: 50%;
+		width: 49%;
+	}
+
+	.box-article-article__except--480 {
+		display: inline;
 	}
 
 	.box-article-article__except--768 {
-		display: inline;
+		display: none;
 	}
 
 	.blog {
@@ -123,12 +160,13 @@
 		display: inline;
 	}
 
-	.blog-article__text--480 {
+	.blog-article__text--960 {
 		display: inline;
 	}
 
 	.brand {
 		width: 90%;
+		max-width: 960px;
 	}
 
 	.brand__item {
@@ -143,10 +181,39 @@
 		margin-top: 20px;
 		width: 26%;
 	}
+	
+	.article-logo {
+		display: none;
+	}
+
+	.logo--footer {
+		display: block;
+		padding: 0;
+		text-align: left;
+		color: #454545;
+	}
+
+	.logo__last-letters--footer {
+		color: #b9b9b9;
+	}
+
+	.article-news__copyring {
+		display: block;
+		margin-bottom: .8rem;
+		color: #b9b9b9;
+	}
 
 	.article__title--news {
 		margin: 0;
 		color: #454545;
+	}
+
+	.article-recent {
+		display: none;
+	}
+
+	.article__title--recent {
+		display: block;
 	}
 
 	.article__except--news {
@@ -159,16 +226,16 @@
 	}
 
 	.wrapper-footer {
-		padding: 50px 0 70px;
+		padding: 50px 0;
 	}
 
 	.footer {
-		width: 90%;
+		width: 100%;
+		max-width: 960px;
 		display: flex;
-		flex-flow: column wrap;
+		flex-flow: row nowrap;
 		justify-content: space-between;
 		align-items: flex-start;
-		min-height: 70px;
 	}
 
 	.nav-horizontal {
@@ -185,7 +252,7 @@
 		font-family: 'League Gothic Regular', Arial, sans-serif;
 		color: #fff;
 		font-size: 1.5rem;
-		text-transform: uppercase;		
+		text-transform: uppercase;
 		border-bottom: 2px solid rgba(0,0,0,0);
 	}
 
@@ -194,7 +261,7 @@
 	}
 
 	.footer__text {
-		align-self: flex-end;
+		align-self: center;
 	}
 
 }

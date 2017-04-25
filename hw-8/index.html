@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/Open%20Sans%20Extrabold.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/stylefor480px.css">
+	<link rel="stylesheet" href="css/stylefor768px.css">
+	<link rel="stylesheet" href="css/stylefor960px.css">
 </head>
 
 <body>
@@ -22,19 +24,29 @@
 					<li class="nav__item">
 						<a href="" class="nav__link nav__link--initial nav__link--visible">home</a>
 					</li>
-					<li class="nav__item"><a href="" class="nav__link">about</a></li>
-					<li class="nav__item"><a href="" class="nav__link">blog</a></li>
-					<li class="nav__item"><a href="" class="nav__link">products</a></li>
-					<li class="nav__item"><a href="" class="nav__link">lorem ipsum</a></li>
-					<li class="nav__item"><a href="" class="nav__link">dolor sit amet</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">about</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">blog</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">products</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">lorem ipsum</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">dolor sit amet</a></li>
+				</ul>
+
+				<ul class="nav-horizontal--header">
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link ">home</a></li>
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link">about</a></li>
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link">blog</a></li>
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link">products</a></li>
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link">lorem ipsum</a></li>
+					<li class="nav-horizontal--header__item"><a href="#" class="nav-horizontal--header__link">dolor sit amet</a></li>
 				</ul>
 			</nav>
 
-			<div class="slider">
+			<div class="slider clearfix">
 				<i class="slider__arov--left"></i>
 				<div class="slider-article">
 					<h2 class="slider-article__title">Lorem Ipsut Dolor</h2>
-					<p class="slider-article__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME</p>
+					<p class="slider-article__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME <span class="slider-article__subtitle--960">TRUE</span></p>
+					<p class="slider-article__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="slider-article__text--960">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
 				</div>
 				<i class="slider__phone"></i>
 				<i class="slider__arov--right"></i>
@@ -52,18 +64,21 @@
 		<aside class="aside">
 		 <article class="article clearfix">
 		 	<i class="article__icon"></i>
+		 	<i class="article__icon--960"></i>
 		 	<h4 class="article__title">ABOUT OUR COMPANY</h4>
 		 	<p class="article__except">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="article__exept--480">ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</span></p>
 		 	<a href="" class="article__link">READ MORE</a>
 		 </article>
 		 <article class="article clearfix">
 		 	<i class="article__icon"></i>
+		 	<i class="article__icon--cloud"></i>
 		 	<h4 class="article__title">ABOUT OUR COMPANY</h4>
 		 	<p class="article__except">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="article__exept--480">ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</span></p>
 		 	<a href="" class="article__link">READ MORE</a>
 		 </article>
 		 <article class="article clearfix">
 		 	<i class="article__icon"></i>
+		 	<i class="article__icon--mus"></i>
 		 	<h4 class="article__title">ABOUT OUR COMPANY</h4>
 		 	<p class="article__except">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="article__exept--480">ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</span></p>
 		 	<a href="" class="article__link">READ MORE</a>
@@ -79,7 +94,9 @@
 					<h4 class="box-article-article__title">PINGBULLER</h4>
 					<h4 class="box-article-article__subtitle">STARTS HERE</h4>
 					<p class="box-article-article__except">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesentrhoncus ultrices posuere. Pellentesque vel lacus eget nisi conval-lis auctor. Nam vitae 
-						<span class="box-article-article__except--480">lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></p>
+						<span class="box-article-article__except--480">lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span>
+						<span class="box-article-article__except--768">lectus eu libero pellentesque pulvinar</span>
+						</p>
 				</article>
 
 				<ul class="box-article-list">
@@ -96,17 +113,23 @@
 					<article class="blog-article">
 						<img src="img/blog-article__userpic.png" class="blog-article__userpic" alt="userpic2">
 						<p class="blog-article__title">Nuns turpis neque <span class="blog-article__title--480">feugiat eget</span></p>
-						<p class="blog-article__text">Posted by Admin in March 13 <span class="blog-article__text--480">2017</span></p>
+						<p class="blog-article__text">Posted by Admin in March 13
+						<span class="blog-article__text--480">2017</span>
+						<span class="blog-article__text--960">2017 in Blog Updates</span></p>
 					</article>
 					<article class="blog-article">
 						<img src="img/blog-article__userpic.png" class="blog-article__userpic" alt="userpic3">
 						<p class="blog-article__title">Nuns turpis neque <span class="blog-article__title--480">feugiat eget</span></p>
-						<p class="blog-article__text">Posted by Admin in March 13 <span class="blog-article__text--480">2017</span></p>
+						<p class="blog-article__text">Posted by Admin in March 13
+						<span class="blog-article__text--480">2017</span>
+						<span class="blog-article__text--960">2017 in Blog Updates</span></p>
 					</article>
 					<article class="blog-article">
 						<img src="img/blog-article__userpic.png" class="blog-article__userpic" alt="userpic4">
 						<p class="blog-article__title">Nuns turpis neque <span class="blog-article__title--480">feugiat eget</span></p>
-						<p class="blog-article__text">Posted by Admin in March 13 <span class="blog-article__text--480">2017</span></p>
+						<p class="blog-article__text">Posted by Admin in March 13
+						<span class="blog-article__text--480">2017</span>
+						<span class="blog-article__text--960">2017 in Blog Updates</span></p>
 					</article>
 				</section>
 				<a href="#" class="article__link blog-article__link">MORE BLOG POSTS</a>
@@ -128,31 +151,34 @@
 	<div class="wrapper wrapper-aside wrapper-aside--news">
 		<aside class="aside">
 		 <article class="article article--news">
-		 	<h4 class="article__title article__title--news">NEWS CATEGORIES</h4>
-		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar biben</p>
+		 	<h4 class="article__title article__title--news article-logo">NEWS CATEGORIES</h4>
+		 	<a class="logo logo--footer" href="#">PINGBULL<span class="logo__last-letters--footer">ER</span></a>
+		 	<i class="article-news__copyring">Copyring 2017, Pingbuul AS</i>
+		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="article__axept--news-480 article__axept--news-960">pulvinar. Quisque urna risus, mattis pulvinar biben</span></p>
+		 </article>
+		 <article class="article article--news">
+		 	<h4 class="article__title article__title--news article-recent">NEWS CATEGORIES</h4>
+		 	<h4 class="article__title article__title--news article__title--recent">RECENT COMMENTS</h4>
+		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="article__axept--news-480">pulvinar. Quisque urna risus, mattis pulvinar biben</span></p>
 		 </article>
 		 <article class="article article--news">
 		 	<h4 class="article__title article__title--news">NEWS CATEGORIES</h4>
-		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar biben</p>
-		 </article>
-		 <article class="article article--news">
-		 	<h4 class="article__title article__title--news">NEWS CATEGORIES</h4>
-		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar biben</p>
+		 	<p class="article__except article__except--news">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="article__axept--news-480">pulvinar. Quisque urna risus, mattis pulvinar biben</span></p>
 		 </article>
 		</aside>
 	</div>
 
 	<div class="wrapper wrapper-footer">
 		<footer class="footer">
-			<ul class="nav-footer">
-				<li class="nav-footer__item"><a href="" class="nav-footer__link ">home</a></li>
-				<li class="nav-footer__item"><a href="" class="nav-footer__link">about</a></li>
-				<li class="nav-footer__item"><a href="" class="nav-footer__link">blog</a></li>
-				<li class="nav-footer__item"><a href="" class="nav-footer__link">products</a></li>
-				<li class="nav-footer__item"><a href="" class="nav-footer__link">lorem ipsum</a></li>
-				<li class="nav-footer__item"><a href="" class="nav-footer__link">dolor sit amet</a></li>
+			<ul class="nav-horizontal">
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link ">home</a></li>
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link">about</a></li>
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link">blog</a></li>
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link">products</a></li>
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link">lorem ipsum</a></li>
+				<li class="nav-horizontal__item"><a href="" class="nav-horizontal__link">dolor sit amet</a></li>
 			</ul>
-			
+
 			<p class="footer__text">Designer by<spam class="footer__text--bold"> Pingbull AS</spam></p>
 		</footer>
 	</div>

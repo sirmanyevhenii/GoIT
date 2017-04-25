@@ -42,10 +42,10 @@ a {
 
 .header {
 	width: 100%;
+	text-align: center;
 }
 
 .logo {
-	display: block;
 	text-align: center;
 	text-decoration: none;
 	font-family: 'League Gothic Regular', Arial, sans-serif;
@@ -138,6 +138,14 @@ a {
 	border-bottom: 2px solid #edbfff;
 }
 
+.nav-horizontal {
+	display: none;
+}
+
+.nav-horizontal--header {
+	display: none;
+}
+
 .slider {
 	margin-top: -100px;
 	position: relative;
@@ -172,6 +180,7 @@ a {
 	font-family: 'League Gothic Regular', sans-serif;
 	color: #fff;
 	font-size: 2rem;
+	font-weight: 500;
 }
 
 .slider-article__subtitle {
@@ -181,8 +190,17 @@ a {
 	font-size: 1rem;
 }
 
+.slider-article__subtitle--960 {
+	display: none;
+}
+
+.slider-article__text {
+	display: none;
+}
+
 .slider__phone {
 	display: none;
+	position: absolute;
 }
 
 .slider__list {
@@ -243,12 +261,21 @@ a {
 	background-image: url(../img/wrench.png);
 }
 
+.article__icon--cloud {
+	display: none;
+}
+
+.article__icon--mus {
+	display: none;
+}
+
 .article__title {
 	margin-bottom: 0px;
 	margin-left: 23px;
 	display: inline-block;
 	font-family: 'League Gothic Regular', sans-serif;
 	font-size: 1.3rem;
+	font-weight: 500;
 	color: #fff;
 }
 
@@ -385,6 +412,10 @@ a {
 	display: none;
 }
 
+.blog-article__text--960 {
+	display: none;
+}
+
 .blog-article__text {
 	margin: 0;
 	padding: 0;
@@ -395,7 +426,6 @@ a {
 .blog-article__text--480 {
 	display: none;
 }
-
 
 .blog-article__link {
 	margin-right: 10%;
@@ -473,6 +503,14 @@ a {
   background-position: -166px -36px;
 }
 
+.logo--footer {
+	display: none;
+}
+
+.article-news__copyring {
+	display: none;
+}
+
 .wrapper-aside--news {
 	display: none;
 	background: #ececec;
@@ -484,10 +522,6 @@ a {
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-.nav-footer {
-	display: none;
 }
 
 .footer__text {

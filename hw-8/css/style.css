@@ -204,7 +204,7 @@ a {
 
 .slider__phone {
 	display: none;
-	position: absolute;
+	float: right;
 }
 
 .slider__list {
@@ -436,7 +436,7 @@ a {
 }
 
 .blog-article__link {
-	margin-right: 10%;
+	align-self: flex-end;
 	color: #454545;
 }
 
@@ -455,9 +455,9 @@ a {
 }
 
 .brand__item {
+	margin-bottom: 2.2rem;
 	flex-basis: 50%;
 	flex-grow: 0;
-	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -11,21 +11,34 @@
 	.slider {
 		margin-top: -150px;
 	}
+
 	.slider-article {
-		margin-left: 30px;
-		width: 240px
+		padding: 0 2.5rem;
+		width: 100%;
+	}
+
+	.slider-article-text {
+		padding-top: 16%;
+		float: left;
 	}
 
 	.slider__phone {
-		top: -100px;
-		right: 30px;
 		display: block;
-		width: 187px; height: 260px;
-		background: url(../img/Iphone.png);
+		width: 40%;
+	}
+
+	.slider__arov--left {
+		margin-top: 14%;
+		float: left;
+	}
+
+	.slider__arov--right {
+		margin-top: 14%;
+		float: right;
 	}
 
 	.slider__list {
-		margin-top: 122px;
+		margin-top: 3rem;
 	}
 	
 	.article__exept--480 {

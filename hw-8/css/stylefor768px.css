@@ -48,24 +48,29 @@
 	}
 
 	.slider__arov--left {
-		position: absolute;
-		top: 50px;
-		left: 2px;
+		margin-top: 20%;
+		float: left;
 	}
 
 	.slider__arov--right {
-		position: absolute;
-		top: 50px;
-		right: 2px;
+		margin-top: 20%;
+		float: right;
 	}
 
 	.slider-article {
+		padding: 0 3rem;
+		width: 100%;
+	}
+
+	.slider-article-text {
+		padding-top: 16%;
+		float: left;
+		width: 35%;
 		text-align: left;
 	}
 
 	.slider-article__text {
 		display: block;
-		width: 40%;
 		font-family: 'Open Sans Light', sans-serif;
 		font-size: 0.9rem;
 		color: #fff;
@@ -76,13 +81,8 @@
 	}
 
 	.slider__phone {
-		bottom: 150px;
-		right: 60px;
 		display: block;
-		width: 16.6rem; height: 23.1rem;
-		background: url(../img/Iphone.png);
-		background-size: cover;
-		background-repeat: no-repeat;
+		width: 40%;
 	}
 
 	.slider__list {

@@ -50,19 +50,30 @@
 	}
 
 	.slider__arov--left {
-		position: absolute;
-		top: 55px;
-		left: 1px;
+		margin-top: 20%;
+		float: left;
 	}
 
 	.slider__arov--right {
-		position: absolute;
-		top: 55px;
-		right: 1px;
+		margin-top: 20%;
+		float: right;
 	}
 
 	.slider-article {
+		padding: 0 3rem;
+		width: 100%;
+	}
+
+	.slider-article-text {
+		padding-top: 16%;
+		float: left;
+		width: 50%;
 		text-align: left;
+	}
+	
+	.slider__phone {
+		display: block;
+		width: 40%;
 	}
 
 	.slider-article__subtitle--960 {
@@ -71,7 +82,6 @@
 
 	.slider-article__text {
 		display: block;
-		width: 50%;
 		font-family: 'Open Sans Light', sans-serif;
 		font-size: 0.9rem;
 		color: #fff;
@@ -81,21 +91,10 @@
 		display: inline;
 	}
 
-	.slider__phone {
-		bottom: 150px;
-		right: 60px;
-		display: block;
-		width: 266px; height: 370px;
-		background: url(../img/Iphone.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
 	.slider__list {
 		margin: 15% 15% 0 0;
 		float: right;
 	}
-
 
 	.article__exept--480 {
 		display: inline;

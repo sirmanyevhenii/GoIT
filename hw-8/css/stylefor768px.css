@@ -60,6 +60,7 @@
 	.slider-article {
 		padding: 0 3rem;
 		width: 100%;
+		background: rgba(10, 10, 10, .3);
 	}
 
 	.slider-article-text {

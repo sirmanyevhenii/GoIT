@@ -2,6 +2,7 @@
 
 	.wrapper {
 		min-width: 960px;
+		align-items: center;
 	}
 
 	.header {
@@ -47,6 +48,7 @@
 
 	.slider {
 		margin: 180px 0 0 0;
+		background: rgba(10, 10, 10, .3);
 	}
 
 	.slider__arov--left {

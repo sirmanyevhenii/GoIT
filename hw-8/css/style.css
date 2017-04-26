@@ -32,10 +32,12 @@ a {
 }
 
 .container {
-	min-width: 320px;
+	min-width: 20rem;
+	max-width: 60rem;
 }
 
 .wrapper-header {
+	flex-direction: column;
 	padding-top: 70px;
 	background: url(../img/background__top.png);
 	background-position: top;
@@ -150,8 +152,13 @@ a {
 	display: none;
 }
 
+.slider-box {
+	width: 100%;
+}
+
 .slider {
 	margin-top: -100px;
+	max-width: 960px;
 	position: relative;
 	text-align: center;
 }

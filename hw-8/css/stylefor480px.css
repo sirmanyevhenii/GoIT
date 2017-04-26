@@ -15,6 +15,7 @@
 	.slider-article {
 		padding: 0 2.5rem;
 		width: 100%;
+		background: rgba(10, 10, 10, .3);
 	}
 
 	.slider-article-text {

@@ -135,6 +135,10 @@
 		flex-basis: 16%;
 	}
 
+	.brand-margin {
+		margin-bottom: 0;
+	}
+
 	.wrapper-aside--news {
 		display: block;
 	}

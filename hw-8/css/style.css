@@ -463,6 +463,10 @@ a {
 	align-items: center;
 }
 
+.brand-margin-320 {
+	margin-bottom: 0;
+}
+
 .brand__link--blabong {
   width: 69px;
   height: 64px;

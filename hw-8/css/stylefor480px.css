@@ -74,6 +74,10 @@
 		flex-basis: 33%;
 	}
 
+	.brand-margin-480 {
+		margin-bottom: 0;
+	}
+
 	.wrapper-aside--news {
 		display: block;
 	}

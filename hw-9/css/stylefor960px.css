@@ -1,0 +1,282 @@
+@media screen and (min-width: 960px) {
+
+	.wrapper {
+		min-width: 960px;
+		align-items: center;
+	}
+
+	.header {
+		max-width: 960px;
+	}
+
+	.main-menu {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+	
+	.logo {
+		padding: 0 15px 15px 15px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.nav-horizontal--header {
+		display: block;
+	}
+
+	.nav-horizontal--header__item {
+		display: inline-block;
+		padding: 15px 0;
+	}
+
+	.nav-horizontal--header__link {
+		display: block;
+		padding: 0 15px;
+		font-family: 'League Gothic Regular', Arial, sans-serif;
+		color: #fff;
+		font-size: 1.5rem;
+		text-transform: uppercase;		
+		border-bottom: 2px solid rgba(0,0,0,0);
+	}
+
+	.nav-horizontal--header__link:hover {
+		border-bottom: 2px solid #edbfff;
+	}
+
+	.slider {
+		margin: 180px 0 0 0;
+		background: rgba(10, 10, 10, .3);
+	}
+
+	.slider__arov--left {
+		margin-top: 20%;
+		float: left;
+	}
+
+	.slider__arov--right {
+		margin-top: 20%;
+		float: right;
+	}
+
+	.slider-article {
+		padding: 0 3rem;
+		width: 100%;
+	}
+
+	.slider-article-text {
+		padding-top: 16%;
+		float: left;
+		width: 50%;
+		text-align: left;
+	}
+	
+	.slider__phone {
+		display: block;
+		width: 40%;
+	}
+
+	.slider-article__subtitle--960 {
+		display: inline;
+	}
+
+	.slider-article__text {
+		display: block;
+		font-family: 'Open Sans Light', sans-serif;
+		font-size: 0.9rem;
+		color: #fff;
+	}
+
+	.slider-article__text--960 {
+		display: inline;
+	}
+
+	.slider__list {
+		margin: 15% 15% 0 0;
+		float: right;
+	}
+
+	.article__exept--480 {
+		display: inline;
+	}
+
+	.aside {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 2.5rem 0;
+		justify-content: space-around;
+	}
+
+	.article {
+		width: 27%;
+	}
+
+	.article__icon {
+		display: none;
+	}
+
+	.article__icon--960 {
+		width: 27px; height: 26px;
+		display: inline-block;
+		background-image: url(../img/wrench.png);
+	}
+
+	.article__icon--cloud {
+		width: 30px; height: 26px;
+		display: inline-block;
+		background-image: url(../img/cloud.png);
+	}
+
+	.article__icon--mus {
+		width: 27px; height: 27px;
+		display: inline-block;
+		background-image: url(../img/mus.png);
+	}
+
+	.blogbox {
+		max-width: 960px;
+		justify-content: space-around;
+		padding: 70px 0;
+	}
+	
+	.box-article {
+		width: 49%;
+	}
+
+	.box-article-article__except--480 {
+		display: inline;
+	}
+
+	.box-article-article__except--768 {
+		display: none;
+	}
+
+	.blog {
+		width: 50%;
+	}
+
+	.blog-article__title--480 {
+		display: inline;
+	}
+
+	.blog-article__text--960 {
+		display: inline;
+	}
+
+	.brand {
+		width: 90%;
+		max-width: 960px;
+	}
+
+	.brand__item {
+		flex-basis: 16%;
+	}
+
+	.brand-margin {
+		margin-bottom: 0;
+	}
+
+
+	.wrapper-aside--news {
+		display: block;
+	}
+
+	.aside--news {
+		align-items: flex-start;
+	}
+
+	.article--news {
+		margin-top: 20px;
+		width: 26%;
+	}
+	
+	.article-logo {
+		display: none;
+	}
+
+	.logo--footer {
+		display: block;
+		padding: 0;
+		text-align: left;
+		color: #454545;
+	}
+
+	.logo__last-letters--footer {
+		color: #b9b9b9;
+	}
+
+	.article-news__copyring {
+		display: block;
+		margin-bottom: .8rem;
+		color: #b9b9b9;
+	}
+
+	.article__title--news {
+		margin: 0;
+		color: #454545;
+	}
+
+	.article-recent {
+		display: none;
+	}
+
+	.article__title--recent {
+		display: block;
+	}
+
+	.article__except--news {
+		margin: 0;
+		color: #454545;
+		max-height: 9.5rem;
+		overflow: hidden;
+	}
+
+	.article__except--news-logo {
+		max-height: 6rem;
+		overflow: hidden;
+	}
+
+	.wrapper-footer {
+		padding: 50px 0;
+	}
+
+	.footer {
+		padding: 0 1rem;
+		width: 100%;
+		max-width: 960px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.nav-horizontal {
+		display: block;
+	}
+
+	.nav-horizontal__item {
+		display: inline-block;
+	}
+
+	.nav-horizontal__link {
+		display: block;
+		padding: 0 10px;
+		font-family: 'League Gothic Regular', Arial, sans-serif;
+		color: #fff;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		border-bottom: 2px solid rgba(0,0,0,0);
+	}
+
+	.nav-horizontal__link:hover {
+		border-bottom: 2px solid #edbfff;
+	}
+
+	.footer__text {
+		align-self: center;
+	}
+
+
+}

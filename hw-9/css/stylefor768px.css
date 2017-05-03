@@ -1,0 +1,207 @@
+@media all and (min-width: 768px) and ( max-width: 959px) {
+	
+	.wrapper {
+		min-width: 768px;
+		max-width: 959px;
+	}
+
+	.main-menu {
+		padding-left: 3%;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: flex-start;
+	}
+	
+	.logo {
+		padding: 0 15px 15px 15px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.nav-horizontal--header {
+		display: block;
+	}
+
+	.nav-horizontal--header__item {
+		display: inline-block;
+		padding: 15px 0;
+	}
+
+	.nav-horizontal--header__link {
+		display: block;
+		padding: 0 15px;
+		font-family: 'League Gothic Regular', Arial, sans-serif;
+		color: #fff;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		border-bottom: 2px solid rgba(0,0,0,0);
+	}
+
+	.nav-horizontal--header__link:hover {
+		border-bottom: 2px solid #edbfff;
+	}
+
+	.slider {
+		margin: 180px 0 0 0;
+	}
+
+	.slider__arov--left {
+		margin-top: 20%;
+		float: left;
+	}
+
+	.slider__arov--right {
+		margin-top: 20%;
+		float: right;
+	}
+
+	.slider-article {
+		padding: 0 3rem;
+		width: 100%;
+		background: rgba(10, 10, 10, .3);
+	}
+
+	.slider-article-text {
+		padding-top: 16%;
+		float: left;
+		width: 35%;
+		text-align: left;
+	}
+
+	.slider-article__text {
+		display: block;
+		font-family: 'Open Sans Light', sans-serif;
+		font-size: 0.9rem;
+		color: #fff;
+	}
+
+	.slider-article__text--960 {
+		display: none;
+	}
+
+	.slider__phone {
+		display: block;
+		width: 40%;
+	}
+
+	.slider__list {
+		margin: 15% 15% 0 0;
+		float: right;
+	}
+
+	.article__exept--480 {
+		display: inline;
+	}
+
+	.aside {
+		justify-content: space-around;
+	}
+
+	.article {
+		width: 30%;
+}
+
+	.blogbox {
+		justify-content: space-around;
+			padding: 70px 20px;
+	}
+	
+	.box-article {
+		width: 50%;
+	}
+
+	.box-article-article__except--768 {
+		display: inline;
+	}
+
+	.blog {
+		width: 50%;
+	}
+
+	.blog-article__title--480 {
+		display: inline;
+	}
+
+	.blog-article__text--480 {
+		display: inline;
+	}
+
+	.brand {
+		width: 90%;
+	}
+
+	.brand__item {
+		flex-basis: 16%;
+	}
+
+	.brand-margin {
+		margin-bottom: 0;
+	}
+
+	.wrapper-aside--news {
+		display: block;
+	}
+
+	.article--news {
+		margin-top: 20px;
+		width: 26%;
+	}
+
+	.article__title--news {
+		margin: 0;
+		color: #454545;
+	}
+
+	.article__title--recent {
+		display: none;
+	}
+
+	.article__except--news {
+		margin: 0;
+		color: #454545;
+		max-height: 8.5rem;
+		overflow: hidden;
+	}
+
+	.wrapper-footer {
+		padding: 50px 0 70px;
+	}
+
+	.footer {
+		width: 90%;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+		min-height: 70px;
+	}
+
+	.nav-horizontal {
+		display: block;
+	}
+
+	.nav-horizontal__item {
+		display: inline-block;
+	}
+
+	.nav-horizontal__link {
+		display: block;
+		padding: 0 10px;
+		font-family: 'League Gothic Regular', Arial, sans-serif;
+		color: #fff;
+		font-size: 1.5rem;
+		text-transform: uppercase;		
+		border-bottom: 2px solid rgba(0,0,0,0);
+	}
+
+	.nav-horizontal__link:hover {
+		border-bottom: 2px solid #edbfff;
+	}
+
+	.footer__text {
+		align-self: flex-end;
+	}
+
+}

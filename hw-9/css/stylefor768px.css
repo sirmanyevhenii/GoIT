@@ -48,17 +48,17 @@
 	}
 
 	.slider__arov--left {
-		margin-top: 20%;
+		margin-top: 26%;
 		float: left;
 	}
 
 	.slider__arov--right {
-		margin-top: 20%;
+		margin-top: 26%;
 		float: right;
 	}
 
 	.slider-article {
-		padding: 0 3rem;
+		padding: 3rem;
 		width: 100%;
 		background: rgba(10, 10, 10, .3);
 	}

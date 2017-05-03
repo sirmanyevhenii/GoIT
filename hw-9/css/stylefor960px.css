@@ -7,6 +7,7 @@
 
 	.header {
 		max-width: 960px;
+		margin-bottom: 80px;
 	}
 
 	.main-menu {
@@ -47,22 +48,22 @@
 	}
 
 	.slider {
-		margin: 180px 0 0 0;
+		margin: 0;
 		background: rgba(10, 10, 10, .3);
 	}
 
 	.slider__arov--left {
-		margin-top: 20%;
+		margin-top: 15rem;
 		float: left;
 	}
 
 	.slider__arov--right {
-		margin-top: 20%;
+		margin-top: 15rem;
 		float: right;
 	}
 
 	.slider-article {
-		padding: 0 3rem;
+		padding: 3rem;
 		width: 100%;
 	}
 
@@ -94,7 +95,7 @@
 	}
 
 	.slider__list {
-		margin: 15% 15% 0 0;
+		margin: 15% 16% 0 0;
 		float: right;
 	}
 
@@ -104,7 +105,6 @@
 
 	.aside {
 		max-width: 960px;
-		margin: 0 auto;
 		padding: 2.5rem 0;
 		justify-content: space-around;
 	}
@@ -178,9 +178,8 @@
 		margin-bottom: 0;
 	}
 
-
 	.wrapper-aside--news {
-		display: block;
+		display: flex;
 	}
 
 	.aside--news {

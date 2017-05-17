@@ -1,6 +1,6 @@
 // var number, power;
-// number = prompt('Enter your number');
-// power = prompt('bring to this power');
+// number = window.prompt('Enter your number');
+// power = window.prompt('bring to this power');
 
 // function pow(number, power) {
 // 	for (var i = 1; i < power; i++) {
@@ -12,6 +12,7 @@
 // console.log(pow(number, power));
 
 
+
 // ----------------- 2 task --------------------------
 // ---------------------------------------------------
 
@@ -19,18 +20,15 @@
 
 var arr = [];
 for (var i = 0; i < 5; i++) {
-	arr[i] = prompt('Enter ' + (5 - i) + ' names');
+	arr[i] = window.prompt('Enter ' + (5 - i) + ' names');
 }
 
-console.log(arr);
-
-var userName = prompt('Enter your name');
-for (var i = 0; i < 5; i++) {
+var userName = window.prompt('Enter your name');
+for (var i = 0; i < arr.length; i++) {
 	if (arr[i] == userName) {
-		alert(userName + ', your entrance is successful');
-		break;
+		window.alert(userName + ', your entrance is successful');
 	} else {
-		alert('Access error');
+		window.alert('Access error');
 		break;
 	}
 }

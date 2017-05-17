@@ -25,7 +25,7 @@ for (var i = 0; i < 5; i++) {
 
 var userName = window.prompt('Enter your name');
 for (var i = 0; i < arr.length; i++) {
-	if (arr[i] == userName) {
+	if (arr[i] === userName) {
 		window.alert(userName + ', your entrance is successful');
 	} else {
 		window.alert('Access error');

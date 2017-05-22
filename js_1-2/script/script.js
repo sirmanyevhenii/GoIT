@@ -4,7 +4,7 @@
 
 var base, exponent;
 base = prompt('Enter base');
-power = prompt('Enter exponent');
+exponent = prompt('Enter exponent');
 
 function pow(base, exponent) {
 	for (var i = 1; i < exponent; i++) {
@@ -15,14 +15,15 @@ function pow(base, exponent) {
 console.log(pow(base, exponent));
 
 // ----------------- 2 task --------------------------
+confirm('task 2');
 // ---------------------------------------------------
 
 var arr = [];
 for (var i = 0; i < 5; i++) {
-    arr[i] = prompt('Enter ' + (5 - i) + ' names');
-}  // undefined опрацьовується, а не мало б
+    arr[i] = prompt('Enter ' + (5 - i) + ' names', 'name');
+}  // null та пусті імена опрацьовуються, а не мали б
 
-var userName = prompt('Enter your name'),
+var userName = prompt('Enter your name','your name'),
     result = 'Access error';
 for (var i = 0; i < 5; i++) {
     if (arr[i] == userName) {

@@ -1,3 +1,7 @@
+'use strict'; 
+//---------------------------------------------------
+// -----------------1 task --------------------------
+
 var base, exponent;
 base = prompt('Enter base');
 power = prompt('Enter exponent');
@@ -8,7 +12,6 @@ function pow(base, exponent) {
 	}
 	return base;
 }
-
 console.log(pow(base, exponent));
 
 // ----------------- 2 task --------------------------
@@ -17,16 +20,14 @@ console.log(pow(base, exponent));
 var arr = [];
 for (var i = 0; i < 5; i++) {
     arr[i] = prompt('Enter ' + (5 - i) + ' names');
-}
+}  // undefined опрацьовується, а не мало б
 
-var userName = prompt('Enter your name');
+var userName = prompt('Enter your name'),
+    result = 'Access error';
 for (var i = 0; i < 5; i++) {
     if (arr[i] == userName) {
-    alert(userName + ', your entrance is successful');
+    result = userName + ', your entrance is successful';
     break;
     }
 }
-
-if (i >= 5 || i == undefined) {
-    alert('Access error');
-}
+alert(result);

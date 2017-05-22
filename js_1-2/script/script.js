@@ -1,15 +1,15 @@
-var number, power;
-number = prompt('Enter your number');
-power = prompt('bring to this power');
+var base, exponent;
+base = prompt('Enter base');
+power = prompt('Enter exponent');
 
-function pow(number, power) {
-	for (var i = 1; i < power; i++) {
-		number *= number;
+function pow(base, exponent) {
+	for (var i = 1; i < exponent; i++) {
+		base *= base;
 	}
-	return number;
+	return base;
 }
 
-console.log(pow(number, power));
+console.log(pow(base, exponent));
 
 // ----------------- 2 task --------------------------
 // ---------------------------------------------------
@@ -27,6 +27,6 @@ for (var i = 0; i < 5; i++) {
     }
 }
 
-if (i >= 5) {
+if (i >= 5 || i == undefined) {
     alert('Access error');
 }

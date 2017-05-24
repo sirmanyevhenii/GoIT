@@ -36,7 +36,7 @@ var test = {
     testTitle.classList.add('test-title');
     testTitle.innerHTML = this.data.title;
     container.appendChild(testTitle);
-    // created function for questions
+    // created function for questions and answers
     for (var q = 0; q < this.data.questions.length; q++) {
       var questionBox = document.createElement('div');
       container.appendChild(questionBox);
@@ -49,14 +49,24 @@ var test = {
       questionBox.appendChild(answersBox);
       for (var a = 0; a < 3; a++) {
         var lable = document.createElement('lable');
+        lable.classList.add('answers-lable');
         var input = document.createElement('input');
+        input.setAttribute('type', 'checkbox');
         lable.appendChild(input);
-        lable.innerHTML = this.data.questions[q].answers[a];
+        var inputText = document.createTextNode(this.data.questions[q].answers[a]);
+        lable.appendChild(inputText);
         answersBox.appendChild(lable);
       }
     }
-    // created function for answers
-
+    // created button 
+    var buttonBox = document.createElement('div');
+    buttonBox.classList.add('button-box');
+    container.appendChild(buttonBox);
+    var button = document.createElement('button');
+    button.classList.add('test-button');
+    var buttonText = document.createTextNode('Перевірити мої результати');
+    button.appendChild(buttonText);
+    buttonBox.appendChild(button);
   }
 };
 

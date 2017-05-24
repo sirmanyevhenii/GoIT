@@ -32,27 +32,33 @@ var test = {
     testRoot.classList.add('test-container');
     testRoot.appendChild(container);
     // created title for test
-    var testTitle = document.createElement('h1');
+    var testTitle = document.createElement('h2');
     testTitle.classList.add('test-title');
     testTitle.innerHTML = this.data.title;
     container.appendChild(testTitle);
-    // created function questions and answers
-    var questionsText = document.createElement('p');
-    questionsText.classList.add('questions-title');
-    questionsText.innerHTML = this.data.questions;
-    container.appendChild(questionsText);
-
-    var answersBox = document.createElement('div');
-    answersBox.classList.add('answers-container');
-
-
-    // var answersOptions = document.createElement('p');
-    
-    // answersBox.classList.add('answers-container');
+    // created function for questions
+    for (var q = 0; q < this.data.questions.length; q++) {
+      var questionBox = document.createElement('div');
+      container.appendChild(questionBox);
+      var questionsText = document.createElement('h3');
+      questionsText.classList.add('questions-title');
+      questionsText.innerHTML = this.data.questions[q].title;
+      questionBox.appendChild(questionsText);
+      var answersBox = document.createElement('div');
+      answersBox.classList.add('answers-container');
+      questionBox.appendChild(answersBox);
+    }
+    // created function for answers
+    for (var a = 0; a < this.data.questions[q].answers.length; a++) {
+      var lable = document.createElement('label');
+      var input = document.createElement('input');
+      lable.appendChild(answersOptionsInput);
+      lable.innerHTML = this.data.questions[q].answers[a];
+      answersBox.appendChild(label);
+    }
 
   }
 };
 
 test.createTest();
-
 console.log(test);

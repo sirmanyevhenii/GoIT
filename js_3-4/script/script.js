@@ -47,15 +47,15 @@ var test = {
       var answersBox = document.createElement('div');
       answersBox.classList.add('answers-container');
       questionBox.appendChild(answersBox);
+      for (var a = 0; a < 3; a++) {
+        var lable = document.createElement('lable');
+        var input = document.createElement('input');
+        lable.appendChild(input);
+        lable.innerHTML = this.data.questions[q].answers[a];
+        answersBox.appendChild(lable);
+      }
     }
     // created function for answers
-    for (var a = 0; a < this.data.questions[q].answers.length; a++) {
-      var lable = document.createElement('label');
-      var input = document.createElement('input');
-      lable.appendChild(answersOptionsInput);
-      lable.innerHTML = this.data.questions[q].answers[a];
-      answersBox.appendChild(label);
-    }
 
   }
 };

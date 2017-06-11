@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+#root {
+	height: 100vh; min-width: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer {
+	padding: 1.1rem 0.5rem;
+	border-radius: 40px;
+	min-width: 20rem; min-height: 11rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: gray;
+	font-family: Arial, sans-serif;
+}
+
+.screen {
+	padding: .6rem;
+	border-radius: 0.6rem;
+	min-width: 17rem; min-height: 4.3rem;
+	text-align: center;
+	background: #a8aeb7;
+	font-size: 3rem;
+}
+
+.btn {
+	padding: .2rem 1.1rem;
+	border-radius: 0.6rem;
+	font-size: 2rem;
+}
+
+.btn-start {
+	background: #C0FFD8;
+}
+
+.btn-stop {
+	background: #FFC5DF;
+}

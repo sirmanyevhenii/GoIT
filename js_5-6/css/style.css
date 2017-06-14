@@ -31,15 +31,16 @@
 }
 
 .btn {
-	padding: .2rem 1.1rem;
 	border-radius: 0.6rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .btn-start {
 	background: #C0FFD8;
+	width: 9.5rem; height: 2.7rem;
 }
 
 .btn-stop {
 	background: #FFC5DF;
+	width: 7.5rem; height: 2.7rem;
 }

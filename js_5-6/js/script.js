@@ -36,7 +36,7 @@
 	  } else if (startBtn.innerHTML == 'CONTINUE') {
 	   	pause1 = Date.now() - startTime;
 	   	toGo = setInterval (stopwatch, 10);
-	   	startTime = startTime + (pause1 + pause);
+	   	startTime = startTime + (pause1 - pause);
 	   	startBtn.textContent = 'PAUSE';
 	  }
 	}

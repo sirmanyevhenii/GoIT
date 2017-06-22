@@ -7,6 +7,12 @@ a {
 	text-decoration: none;
 }
 
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 /* my modification end*/
 
 
@@ -53,10 +59,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
 }
